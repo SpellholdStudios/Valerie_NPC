@@ -81,6 +81,8 @@ The Tales of the Sword Coast (TotSC) expansion is not required to play the Valer
 
 Good Old Games (GOG) and Steam both package the additional content for Siege of Dragonspear in a method that WeiDU, the tool used to install this mod, cannot access. You must run a program called <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a> on your SoD installation before you can install this or any other WeiDU-based mod.
 
+## 
+
 #### Enhanced Editions Note
 
 The Enhanced Editions are actively supported games. Please note that every patch update will wipe your current mod setup! If in the middle of a modded game you might want to delay the patch update (if possible) as even after reinstalling the mods, you might not be able to continue with your old savegames. Alternatively, copy the whole game's folder into a new one that can be modded and will stay untouched by game patches. It is important that you install the mod to the language version you are playing the game in. Otherwise, the dialogues of the mod will not show but give error messages.
@@ -214,14 +216,19 @@ A: No, she doesn't.
 
 #### Copyrights Information
 
-###### <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a> The Isra NPC mod is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Rhaella, based on material from the game Baldur's Gate II and its expansion, and is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
-###### Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
+###### Valerie NPC is not developed, supported, or endorsed by BioWare&trade; or Interplay/BlackIsle, Overhaul, Beamdog or the Wizards of the Coast. It was developed by Tempest, based on material from the game Baldur's Gate and its expansion.
+###### All mod content is &copy;Tempest.
+###### Baldur's Gate, Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp. All other trademarks and copyrights are property of their respective owners.
 
+###### This mod was created to be freely enjoyed by all Baldur's Gate players, and its content is free of rights. Please note that any and all redistribution and/or hosting of this mod is prohibited without permission from the authors.
+
+###### The modding community for the Infinity Engine has been going strong for more than 10 years now, and is the culmination of thousands of unpaid modding hours by fellow fans of the game. Modders produce their best work and players get the best, well-supported mods when we all work together.
+###### There are two big ways to upset this harmony. One is to claim someone else's work as your own. The second is to host and redistribute a mod without permission from the author(s).
+###### Be kind to your fellow players and modders. Don't do either.</br></br>
 <div align="right"><a href="#top">Back to top</a></div>
 
 
 <hr>
-
 
 
 ## <a name="versions" id="versions"></a>Version History
@@ -238,7 +245,7 @@ A: No, she doesn't.
 - Commented code as much as possible.
 - Replaced `GAME_IS` conditions with variables checks to speed up install time.
 - Added EET compatibility.
-- SoD/EET/BGT compatibility: as she has no content for those games yet, Valerie will no longer remain in the party at SoD and BGT transitions.
+- SoD/EET/BGT compatibility: as she has no content for those games, Valerie will no longer remain in the party at SoD and BGT transitions.
 - fw4800.baf: Added "*Continue()*" to the script block that is patched via `EXTEND_TOP`.
 - dialogues: fixed a typo wrongly patching t2val.d (bt2val.d) and added eet variables when relevant (t2valj.d).
 - Updated cpmvars files.
