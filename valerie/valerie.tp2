@@ -1,13 +1,11 @@
-// --------------------------------------------
-// Basics
 BACKUP ~valerie/backup~
-AUTHOR ~Tempest (tempest@spellholdstudios.net)~
+//AUTHOR ~Tempest (tempest@spellholdstudios.net)~
+SUPPORT ~Spellhold staff at http://www.shsforums.net/forum/617-valerie/~
 
 VERSION ~v1.1~
 
-README ~valerie/valerie_readme.html~
+README ~valerie/readme/valerie-readme-english.html~
 
-// Crossplatform var stuff blatantly stolen from cmorgan/gavin/bg1npc!
 ALWAYS
 
 	ACTION_IF NOT VARIABLE_IS_SET is_tutu BEGIN // check to make this happen only once per install
@@ -86,10 +84,12 @@ LANGUAGE ~Russian (Translation: JamesMaxwell & Arcanecoast.ru)~
          ~valerie/lang/russian/setup.tra~
 
 
-/* ============================================== *
- *  Valerie NPC Mod for BG:EE, EET, BGT and TuTu  *
- * ============================================== */
-BEGIN @1													 // ~Valerie NPC Mod for BG1 Tutu~
+/* ================================================= *
+ *  Valerie NPC Mod for BG1 Tutu, BGT BG:EE and EET  *
+ * ================================================= */
+BEGIN @1													 // ~Valerie NPC Mod for BG1 Tutu, BGT BG:EE and EET~
+DESIGNATED 0 LABEL ~valerie_npc_for_bg~
+REQUIRE_PREDICATE GAME_IS ~tutu tutu_totsc bgee eet bgt~ @2  // ~You must have Tutu, BGT, BG:EE or EET installed to install Valerie NPC for BG mod.~
 
 INCLUDE ~%MOD_FOLDER%/lib/main_component.tpa~
 
