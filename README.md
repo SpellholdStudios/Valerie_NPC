@@ -16,6 +16,15 @@
 
 ## 
 
+[Read the mod's readme](https://spellholdstudios.github.io/readmes/valerie-readme-english.html)
+
+[Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/1041-valerie/)<br>
+
+&nbsp;
+
+
+## 
+
 ## <a name="intro" id="intro"></a>Overview
 
 With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disasters plaguing Amnish territory on the Sword Coast, the Cowled Wizards of Amn have become involved in the looming conflict. Dedicated to controlling the use of magic in Amn and destroying magical threats to that nation, on the Sword Coast they act in support of the Amnish army. And with the rumors of demons in the mines of Nashkel, one young Cowled Wizard has taken it upon herself to learn the truth of the matter. Adventurers willing to work with a Cowled Wizard will find a willing ally in their Nashkel investigations and beyond.
@@ -41,7 +50,7 @@ The Valerie NPC mod contains a friendship for a PC of any race and gender with f
 - TODO Added EET compatibility.
 - SoD/EET/BGT compatibility: as she has no content for those games yet, Valerie will no longer remain in the party at SoD and BGT transitions.
 - fw4800.baf: Added "*Continue()*" to the script block that is patched via `EXTEND_TOP`.
-- bt2val.d: fixed a typo wrongly patching t2val.d and added eet variables when relevant.
+- dialogues: fixed a typo wrongly patching t2val.d (bt2val.d) and added eet variables when relevant (t2valj.d).
 - Updated cpmvars files.
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - Simplified area type flagging and Tutu area script assignment patching.

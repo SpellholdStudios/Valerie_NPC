@@ -2415,11 +2415,11 @@ END
 
 // Valerie heads off a potential fight
 
-INTERJECT %tutu_scriptbg%SENDAI 0 T2Valerie_sendai
+INTERJECT %tutu_scriptbg%SENDAI%eet_var% 0 T2Valerie_sendai
   == T2VALJ IF ~InParty("T2Val") !StateCheck("T2Val",CD_STATE_NOTVALID)~ THEN @811
-  == %tutu_scriptbg%SENDAI @812
+  == %tutu_scriptbg%SENDAI%eet_var% @812
   == T2ValJ @813
-  == %tutu_scriptbg%SENDAI @814
+  == %tutu_scriptbg%SENDAI%eet_var% @814
   == T2ValJ @815
 END
   ++ @816 EXTERN T2VALJ T2ValJSUgly
