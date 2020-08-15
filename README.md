@@ -32,13 +32,15 @@ The Valerie NPC mod contains a friendship for a PC of any race and gender with f
 - TODO Added *valerie.ini* metadata file to support AL|EN's "Project Infinity".
 - TODO Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
-- TODO Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added Modmerge check for SoD games.
+- TODO Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - TODO Added component `DESIGNATED` number and "*valerie_npc_for_bg*" `LABEL`.
 - Externalized tp2 code into *main_component.tpa* library for more comfortable readability and maintenance.
-- TODO Commented code as much as possible.
+- Commented code as much as possible.
 - TODO Replaced `GAME_IS` conditions with variables checks to speed up install time.
 - TODO Added EET compatibility.
+- SoD/EET/BGT compatibility: as she has no content for those games yet, Valerie will no longer remain in the party at SoD and BGT transitions.
+- bt2val.d: fixed a typo wrongly patching t2val.d and added eet variables when relevant.
 - Updated cpmvars files.
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - Simplified area type flagging and Tutu area script assignment patching.

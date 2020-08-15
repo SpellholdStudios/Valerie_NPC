@@ -1,0 +1,16 @@
+/* ============================================ *
+ *  Valerie leaves the party at SoD transition  *
+ * ============================================ */
+IF
+	OR(2)
+		InMyArea("T2Val")
+		InPartyAllowDead("T2Val")
+	GlobalLT("BD_PLOT","GLOBAL",51)
+THEN
+	RESPONSE #100
+		ActionOverride("T2Val",LeaveParty())
+		ActionOverride("PlayerChest00",TakeCreatureItems("T2Val",BACKPACK))
+		SmallWait(1)
+		ActionOverride("T2Val",DestroySelf())
+		Continue()
+END

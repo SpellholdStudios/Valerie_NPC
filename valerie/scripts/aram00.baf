@@ -1,0 +1,15 @@
+/* ============================================ *
+ *  Valerie leaves the party at BGT transition  *
+ * ============================================ */
+IF
+	InParty("T2Val")
+	Global("T2Val_ValerieLeavesPartyBGT","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ActionOverride("T2Val",LeaveParty())
+		ActionOverride("T2Val",ChangeAIScript("",DEFAULT))
+		ActionOverride("T2Val",ClearAllActions())
+		ActionOverride("T2Val",DestroySelf())
+		SetGlobal("T2Val_ValerieLeavesPartyBGT","GLOBAL",1)
+		Continue()
+END

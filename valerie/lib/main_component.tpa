@@ -140,39 +140,23 @@ END
  * ---------------------------------- */
 
 // Compiling dialogues...
-COMPILE ~valerie/dialogue/t2val.d~
+COMPILE EVALUATE_BUFFER ~valerie/dialogue/t2val.d~
 COMPILE EVALUATE_BUFFER ~valerie/dialogue/bt2val.d~
 COMPILE EVALUATE_BUFFER ~valerie/dialogue/t2valj.d~
 COMPILE EVALUATE_BUFFER ~valerie/dialogue/t2valp.d~
 
 // Compiling scripts...
-COMPILE EVALUATE_BUFFER ~valerie/scripts/t2val.baf~
+COMPILE EVALUATE_BUFFER ~valerie/scripts/t2val.baf~	USING ~valerie/lang/%s\setup.tra~
 COMPILE EVALUATE_BUFFER ~valerie/scripts/t2vald.baf~
 
-COMPILE EVALUATE_BUFFER ~isra/scripts/rh#isfix.baf~	USING ~isra/translations/%s\setup.tra~
+EXTEND_TOP ~%Nashkel_BCS%.bcs~ ~valerie/scripts/fw4800.baf~ EVALUATE_BUFFER
 
-EXTEND_TOP ~%NashkelMines_BCS%.bcs~ ~isra/scripts/fw5400.baf~ EVALUATE_BUFFER
-ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN
-  EXTEND_TOP ~_AR4800.bcs~ ~valerie/scripts/fw4800.baf~
-    EVALUATE_BUFFER
-END ELSE BEGIN
-  ACTION_IF FILE_EXISTS_IN_GAME ~AR7200.are~ THEN BEGIN
-    EXTEND_TOP ~AR3700.bcs~ ~valerie/scripts/fw4800.baf~
-      EVALUATE_BUFFER
-  END ELSE BEGIN
-    ACTION_IF FILE_EXISTS_IN_GAME ~neera.dlg~ THEN BEGIN
-      EXTEND_TOP ~AR4800.bcs~ ~valerie/scripts/fw4800.baf~
-        EVALUATE_BUFFER
-    END
-  END
-END
-
-// SoD/BGT compatibility: Isra leaves the party at transition.
+// SoD/EET/BGT compatibility: Valerie leaves the party at transition.
 ACTION_IF (is_sod) OR (is_eet) BEGIN
-	EXTEND_TOP ~bd0103.bcs~ ~isra/scripts/bd0103.baf~
+	EXTEND_TOP ~bd0103.bcs~ ~valerie/scripts/bd0103.baf~
 END ELSE BEGIN
 	ACTION_IF (is_bgt) BEGIN
-		EXTEND_TOP ~aram00.bcs~ ~isra/scripts/aram00.baf~
+		EXTEND_TOP ~aram00.bcs~ ~valerie/scripts/aram00.baf~
 	END
 END
 
