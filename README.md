@@ -47,7 +47,7 @@
 - TODO Removed useless files.
 - Lower cased files.
 - TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
-- TODO Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
+- Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v246.
 - TODO Uploaded mod to official Spellhold Studios GitHub mirror account.
 
