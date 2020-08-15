@@ -348,43 +348,43 @@ IF
     HotKey(K)
 THEN
     RESPONSE #100
-        SetName(~Valerie~)
-        SetPlayerSound(Myself,~Wow. We're really making a difference, aren't we?~,HAPPY)
-        SetPlayerSound(Myself,~I don't know if that was really necessary...~,UNHAPPY_ANNOYED)
-        SetPlayerSound(Myself,~Ugh. You people are disgusting. I should have stayed in Amn.~,UNHAPPY_SERIOUS)
-        SetPlayerSound(Myself,~Sorry, but you'll have to go on without me.~,UNHAPPY_BREAKING_POINT)
-        SetPlayerSound(Myself,~I'm not sure I'm the best choice to lead, but I'll do my best.~,LEADER)
-        SetPlayerSound(Myself,~Up at all hours, no time for rest or sleep... reminds me of my apprenticeship.~,TIRED)
-        SetPlayerSound(Myself,~Hmmm. Anyone have a good book to read?~,BORED)
-        SetPlayerSound(Myself,~In Torm's name!~,BATTLE_CRY1)
-        SetPlayerSound(Myself,~This place shall be your grave!~,BATTLE_CRY2)
-        SetPlayerSound(Myself,~For Amn!~,BATTLE_CRY3)
-        SetPlayerSound(Myself,~I'm sorry... I couldn't...~,DYING)
-        SetPlayerSound(Myself,~Help! I can't stop the bleeding!~,HURT)
-        SetPlayerSound(Myself,~It's pretty here. Forests always seem to be home to all kinds of nasty critters, though.~,AREA_FOREST)
-        SetPlayerSound(Myself,~Kinda quaint compared to Athkatla. I think I prefer this, actually.~,AREA_CITY)
-        SetPlayerSound(Myself,~Ooooh, a dungeon... we're about to get attacked, aren't we?~,AREA_DUNGEON)
-        SetPlayerSound(Myself,~A nice day out. Until the fighting and the screaming start.~,AREA_DAY)
-        SetPlayerSound(Myself,~This isn't good. Evil critters always seem to favor darkness.~,AREA_NIGHT)
-        SetPlayerSound(Myself,~I'm here.~,SELECT_COMMON1)
-        SetPlayerSound(Myself,~Need something?~,SELECT_COMMON2)
-        SetPlayerSound(Myself,~Need a spell?~,SELECT_COMMON3)
-        SetPlayerSound(Myself,~Ready.~,SELECT_COMMON4)
-        SetPlayerSound(Myself,~Yes?~,SELECT_COMMON5)
-        SetPlayerSound(Myself,~Got a problem?~,SELECT_COMMON6)
-        SetPlayerSound(Myself,~Alright.~,SELECT_ACTION1)
-        SetPlayerSound(Myself,~On it.~,SELECT_ACTION2)
-        SetPlayerSound(Myself,~Sounds easy enough.~,SELECT_ACTION3)
-        SetPlayerSound(Myself,~I'm moving.~,SELECT_ACTION4)
-        SetPlayerSound(Myself,~It's done.~,SELECT_ACTION5)
-        SetPlayerSound(Myself,~Okay.~,SELECT_ACTION6)
-        SetPlayerSound(Myself,~Let's see what the big deal is.~,SELECT_ACTION7)
-        SetPlayerSound(Myself,~That has got to hurt.~,CRITICAL_HIT)
-        SetPlayerSound(Myself,~Uh. Sorry?~,CRITICAL_MISS)
-        SetPlayerSound(Myself,~My weapon's useless! Maybe magic instead?~,TARGET_IMMUNE)
-        SetPlayerSound(Myself,~Gah. Even as an apprentice, I never had to carry this much. Sorry.~,INVENTORY_FULL)
-        SetPlayerSound(Myself,~Wonder how long they'll take to miss that.~,PICKED_POCKET)
-        SetPlayerSound(Myself,~A different kind of invisibility than I've studied.~,HIDDEN_IN_SHADOWS)
-        SetPlayerSound(Myself,~Ah, damn it!~,SPELL_DISRUPTED)
-        SetPlayerSound(Myself,~It's set.~,SET_A_TRAP)
+        SetName(@1001) // ~Valerie~
+        SetPlayerSound(Myself,@1008,HAPPY)                  // ~Wow. We're really making a difference, aren't we?~
+        SetPlayerSound(Myself,@1009,UNHAPPY_ANNOYED)        // ~I don't know if that was really necessary...~
+        SetPlayerSound(Myself,@1010,UNHAPPY_SERIOUS)        // ~Ugh. You people are disgusting. I should have stayed in Amn.~
+        SetPlayerSound(Myself,@1011,UNHAPPY_BREAKING_POINT) // ~Sorry, but you'll have to go on without me.~
+        SetPlayerSound(Myself,@1012,LEADER)                 // ~I'm not sure I'm the best choice to lead, but I'll do my best.~
+        SetPlayerSound(Myself,@1013,TIRED)                  // ~Up at all hours, no time for rest or sleep... reminds me of my apprenticeship.~
+        SetPlayerSound(Myself,@1014,BORED)                  // ~Hmmm. Anyone have a good book to read?~
+        SetPlayerSound(Myself,@1015,BATTLE_CRY1)            // ~In Torm's name!~
+        SetPlayerSound(Myself,@1016,BATTLE_CRY2)            // ~This place shall be your grave!~
+        SetPlayerSound(Myself,@1017,BATTLE_CRY3)            // ~For Amn!~
+        SetPlayerSound(Myself,@1018,DYING)                  // ~I'm sorry... I couldn't...~
+        SetPlayerSound(Myself,@1019,HURT)                   // ~Help! I can't stop the bleeding!~
+        SetPlayerSound(Myself,@1020,AREA_FOREST)            // ~It's pretty here. Forests always seem to be home to all kinds of nasty critters, though.~
+        SetPlayerSound(Myself,@1021,AREA_CITY)              // ~Kinda quaint compared to Athkatla. I think I prefer this, actually.~
+        SetPlayerSound(Myself,@1022,AREA_DUNGEON)           // ~Ooooh, a dungeon... we're about to get attacked, aren't we?~
+        SetPlayerSound(Myself,@1023,AREA_DAY)               // ~A nice day out. Until the fighting and the screaming start.~
+        SetPlayerSound(Myself,@1024,AREA_NIGHT)             // ~This isn't good. Evil critters always seem to favor darkness.~
+        SetPlayerSound(Myself,@1025,SELECT_COMMON1)         // ~I'm here.~
+        SetPlayerSound(Myself,@1026,SELECT_COMMON2)         // ~Need something?~
+        SetPlayerSound(Myself,@1027,SELECT_COMMON3)         // ~Need a spell?~
+        SetPlayerSound(Myself,@1028,SELECT_COMMON4)         // ~Ready.~
+        SetPlayerSound(Myself,@1029,SELECT_COMMON5)         // ~Yes?~
+        SetPlayerSound(Myself,@1030,SELECT_COMMON6)         // ~Got a problem?~
+        SetPlayerSound(Myself,@1031,SELECT_ACTION1)         // ~Alright.~
+        SetPlayerSound(Myself,@1032,SELECT_ACTION2)         // ~On it.~
+        SetPlayerSound(Myself,@1033,SELECT_ACTION3)         // ~Sounds easy enough.~
+        SetPlayerSound(Myself,@1034,SELECT_ACTION4)         // ~I'm moving.~
+        SetPlayerSound(Myself,@1035,SELECT_ACTION5)         // ~It's done.~
+        SetPlayerSound(Myself,@1036,SELECT_ACTION6)         // ~Okay.~
+        SetPlayerSound(Myself,@1037,SELECT_ACTION7)         // ~Let's see what the big deal is.~
+        SetPlayerSound(Myself,@1038,CRITICAL_HIT)           // ~That has got to hurt.~
+        SetPlayerSound(Myself,@1039,CRITICAL_MISS)          // ~Uh. Sorry?~
+        SetPlayerSound(Myself,@1040,TARGET_IMMUNE)          // ~My weapon's useless! Maybe magic instead?~
+        SetPlayerSound(Myself,@1041,INVENTORY_FULL)         // ~Gah. Even as an apprentice, I never had to carry this much. Sorry.~
+        SetPlayerSound(Myself,@1042,PICKED_POCKET)          // ~Wonder how long they'll take to miss that.~
+        SetPlayerSound(Myself,@1043,HIDDEN_IN_SHADOWS)      // ~A different kind of invisibility than I've studied.~
+        SetPlayerSound(Myself,@1044,SPELL_DISRUPTED)        // ~Ah, damn it!~
+        SetPlayerSound(Myself,@1045,SET_A_TRAP)             // ~It's set.~
 END

@@ -1,0 +1,54 @@
+@0    = ~v1.2~
+
+@1    = ~Valerie NPC Mod for BG1 Tutu~
+@4    = ~Please install on BG:EE, Tutu or BGT.~
+
+@22   = ~Tutu install detected.~
+@23   = ~BGT install detected.~
+@24   = ~Baldur's Gate Enhanced Edition install detected.~
+
+
+/* ------------- *
+ *  Valerie NPC  *
+ * ------------- */
+@1001 = ~Valerie~
+@1002 = ~Valerie is quiet when asked about her past, finding her feelings about it mixed. She was cast out of her family as a child when she displayed signs of magical talent, a deeply suspicious sign in Amn with its cultural distrust of magic. She was found and taken in by the Cowled Wizards, the nation's arcane police, who taught her how to use and control her abilities. Upon completing her apprenticeship, she was posted to Nashkel with the Amnish army where you met her.~
+
+@1008 = ~Wow. We're really making a difference, aren't we?~
+@1009 = ~I don't know if that was really necessary...~
+@1010 = ~Ugh. You people are disgusting. I should have stayed in Amn.~
+@1011 = ~Sorry, but you'll have to go on without me.~
+@1012 = ~I'm not sure I'm the best choice to lead, but I'll do my best.~
+@1013 = ~Up at all hours, no time for rest or sleep... reminds me of my apprenticeship.~
+@1014 = ~Hmmm. Anyone have a good book to read?~
+@1015 = ~In Torm's name!~
+@1016 = ~This place shall be your grave!~
+@1017 = ~For Amn!~
+@1018 = ~I'm sorry... I couldn't...~
+@1019 = ~Help! I can't stop the bleeding!~
+@1020 = ~It's pretty here. Forests always seem to be home to all kinds of nasty critters, though.~
+@1021 = ~Kinda quaint compared to Athkatla. I think I prefer this, actually.~
+@1022 = ~Ooooh, a dungeon... we're about to get attacked, aren't we?~
+@1023 = ~A nice day out. Until the fighting and the screaming start.~
+@1024 = ~This isn't good. Evil critters always seem to favor darkness.~
+@1025 = ~I'm here.~
+@1026 = ~Need something?~
+@1027 = ~Need a spell?~
+@1028 = ~Ready.~
+@1029 = ~Yes?~
+@1030 = ~Got a problem?~
+@1031 = ~Alright.~
+@1032 = ~On it.~
+@1033 = ~Sounds easy enough.~
+@1034 = ~I'm moving.~
+@1035 = ~It's done.~
+@1036 = ~Okay.~
+@1037 = ~Let's see what the big deal is.~
+@1038 = ~That has got to hurt.~
+@1039 = ~Uh. Sorry?~
+@1040 = ~My weapon's useless! Maybe magic instead?~
+@1041 = ~Gah. Even as an apprentice, I never had to carry this much. Sorry.~
+@1042 = ~Wonder how long they'll take to miss that.~
+@1043 = ~A different kind of invisibility than I've studied.~
+@1044 = ~Ah, damn it!~
+@1045 = ~It's set.~

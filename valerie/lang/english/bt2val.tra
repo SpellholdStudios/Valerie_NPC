@@ -1,0 +1,647 @@
+/* --------- *
+ *  Jaheira  *
+ * --------- */
+@0    = ~It is curious to see a Cowled Wizard outside of Amn. Your organization has seemed quite occupied with internal affairs in the past.~
+@1    = ~They say there are demons in the mines. The army is ill-equipped to deal with arcane matters.~
+@2    = ~Rumor said there were demons in the mines. The army is ill-equipped to deal with arcane matters.~
+@3    = ~They sent you to deal with rumors of demons? A girl barely out of her apprenticeship?~
+@4    = ~I'm not expected to 'deal with' them, just confirm the presence or absence of demons. If there are real demons, the Cowled Wizards and Order of the Radiant Heart will move in.~
+@5    = ~I wasn't expected to 'deal with' them, just confirm the presence or absence of demons. If there were real demons, the Cowled Wizards and Order of the Radiant Heart would have moved in.~
+@6    = ~Do you know much of demons?~
+@7    = ~I know I should probably run away very fast if I meet one.~
+@8    = ~The Cowled Wizards taught you well, child.~
+@9    = ~Jaheira, you know a lot about nature, right? And the critters that live in it?~
+@10   = ~I do, though I do not think 'critters' an appropriate name for nature's denizens.~
+@11   = ~All right, the animals and monsters and other things that live in it. Are... are abilities like mine common in nature?~
+@12   = ~You speak of your magical abilities, I presume.~
+@13   = ~I do. The... Cowled Wizards didn't encourage trying to find out where my abilities come from.~
+@14   = ~Few of nature's creatures come by magical abilities naturally. Some are the result of deliberate magical experimentation, others live in a region engulfed in powerful magic and are changed by it. A few are the result of crossbreeding with such magical creatures.~
+@15   = ~I see. I guess.~
+@16   = ~That was not the answer you wanted.~
+@17   = ~No. I got called a freak when I started casting spells. I had hoped...~
+@18   = ~People will always fear what they do not understand.~
+@19   = ~...Guess that's why I scare myself a lot of the time.~
+@20   = ~I never did thank you for talking to me, about my abilities.~
+@21   = ~Your fears are only natural, Valerie. Do not let your fear decide your actions.~
+@22   = ~I try not to. Thank you, Jaheira.~
+@23   = ~You are welcome.~
+@24   = ~Ack!~
+@25   = ~That was only a grass snake, child. You should not be jumping at odd movements in the forest.~
+@26   = ~I hate snakes. Micah, one of my fellow apprentices, had one as a familiar... kept making it slither into my bed or onto my lab table. Ugh.~
+@27   = ~Snakes have their place in nature, Valerie. They feed on a wide range of pests, and most are quite harmless unless provoked.~
+@28   = ~I know, I know. Doesn't change that they're scaly and slither-y and make my skin crawl when I see one.~
+@29   = ~*Sigh* This may take more work than I had thought.~
+
+/* -------- *
+ *  Khalid  *
+ * -------- */
+@30   = ~Khalid, has anyone told you how amazing you are in a fight?~
+@31   = ~Jaheira has told me that often. Hehe. I rarely hear it from anyone else.~
+@32   = ~You're, uh, the way you are, and you still charge into the fray. Says a lot, I think.~
+@33   = ~I... I do not like fighting. It is what I know how to do.~
+@34   = ~Thank you for doing so all the same, and not just because you're usually between nasty critters and my unarmored robes.~
+@35   = ~Heh-hehe. You're welcome.~
+@36   = ~Thanks for coming with us, Khalid. You never run from a fight, do you?~
+@37   = ~I try to not leave a friend in danger.~
+@38   = ~Even when they keep dragging you into dangerous situations?~
+@39   = ~(Khalid smiles) Even when.~
+@40   = ~I'm just saying, I'd hate for you to get hurt or worse because of us.~
+@41   = ~Do not worry, Valerie. I have no regrets.~
+
+/* --------- *
+ *  Ajantis  *
+ * --------- */
+@42   = ~Sir Ajantis? Lord Keldorn Firecam's squire? What are you doing on the Sword Coast?~
+@43   = ~I am sorry, lady Lysander, but have we met before?~
+@44   = ~No, but Lord Firecam's exploits are legendary in the church of Torm. People thought it was very odd that he would take a paladin of Helm as his squire. Last I heard, though, Lord Keldorn was still in Athkatla.~
+@45   = ~I see. Surely you have noticed there is an evil taint to the Sword Coast. Lord Firecam gave me leave to pursue this matter.~
+@46   = ~Ah. The Cowled Wizards didn't call it an evil taint, but the rumors of a demon incursion in the Nashkel mines did get our attention.~
+@47   = ~I imagine it would. As it is, the Cowled Wizards prefer to be the ones summoning demons themselves, I would say.~
+@48   = ~Uh... no. The last time a Cowled Wizard summoned demons, his last name was Corthala and I'm sure you can guess what happened after that.~
+@49   = ~It was a jest, lady Lysander, though I confess I only know the surname Corthala in passing.~
+@50   = ~A joke? From a paladin? Uh... nevermind. Good to meet you and all that. Mind giving me a minute for my blush to fade?~
+@51   = ~Of course, lady Lysander. Take your time.~
+@52   = ~Lady Lysander, am I to understand that you know Lord Keldorn?~
+@53   = ~Everyone who attends service at the temple of Torm in Athkatla knows Lord Keldorn. How could we not? He's an exemplar of everything we hope to be.~
+@54   = ~Everything you hope to be? It is curious that a sorceress would hold a paladin in such high regard, my lady.~
+@55   = ~The place of the strong is between the weak and those who would prey upon them. There are many kinds of strength, and all can serve the cause of righteousness.~
+@56   = ~I am glad we are of like mind, lady Lysander.~
+@57   = ~Ever feel like we're in a storybook fantasy, Sir Ajantis?~
+@58   = ~Indeed I do, but an evil one. A mysterious crisis in the land, assassins at every turn, and the servants of righteousness trying to blaze a path through it all.~
+@59   = ~Makes me wonder if there are going to be books or stories about this someday. <CHARNAME> will get all the glory, of course.~
+@60   = ~Fortunately. I would not like my association with <CHARNAME> to be long remembered.~
+@61   = ~<PRO_HESHE>deserves it, if we will make a difference for the better in this troubled land.~
+@62   = ~<PRO_HESHE> deserves it. We have made a difference for the better in this troubled land.~
+@63   = ~Oh, I don't mind <CHARNAME> taking all the attention. Better <PRO_HIMHER> than me.~
+@64   = ~A wizard with humility? I have met several Cowled Wizards that would not show such modesty.~
+@65   = ~...Shutting up now.~
+@66   = ~Sir Ajantis, I'm trying to understand how you think and believe, but I'm coming up empty.~
+@67   = ~What precisely troubles you, lady Lysander?~
+@68   = ~How can you be so blind?~
+@69   = ~I beg your pardon, my lady?~
+@70   = ~Helm cares nothing for good, Ajantis. Torm teaches that blind obedience is mere zealotry, and one must always question and reform unjust laws.~
+@71   = ~You dare insult my service to Helm?~
+@72   = ~Law and good are not the same thing, Ajantis! They should serve the same end, ideally, but not all laws are just.~
+@73   = ~Helm's are.~
+@74   = ~Have you ever in your life considered the possibility that you're wrong?~
+@75   = ~Have you?~
+
+/* ------- *
+ *  Imoen  *
+ * ------- */
+@76   = ~Be careful with that spellbook, Imoen. Magic is alluring, but it's very dangerous.~
+@77   = ~Come on! How bad could it be, miss I-don't-need-a-spellbook?~
+@78   = ~Honest answer or sarcastic?~
+@79   = ~Hmmm... both!~
+@80   = ~Imoen, I'm saying this for your own safety. Manipulating the Weave is dangerous as all get out if you don't know what you're doing. You could easily disintegrate yourself. Or worse, turn your hair into some pastel color.~
+@81   = ~Haha! Wait... you're serious, aren't you?~
+@82   = ~I've seen both happen, Imoen. It's a rare group of apprentices who all survive to graduate. Although Natalie changed her *skin* color rather than her hair...~
+@83   = ~Wow. Never know what'll happen till you try it, though!~
+@84   = ~You are playing with forces beyond your understanding, Imoen. I'll pray you survive.~
+@85   = ~You been talking a lot about how magic works, Val. How do you know so much about casting spells? I thought you just waved your hands and blasted people.~
+@86   = ~It's a little more complicated than that, but that actually *is* more or less how I cast spells. Unlike some people I could name, though, I study.~
+@87   = ~Hehe. Alright, alright. Think I could learn do cast spells like you do? Tryin' to learn all these incantations and movements is pretty boring.~
+@88   = ~They're necessary to manipulate the Weave. Sorcerers like me are born, not trained.~
+@89   = ~You're such a killjoy. Won't even let a girl dream!~
+@90   = ~Magic isn't a toy, Immy.~
+@91   = ~Hey! Only <CHARNAME> gets to call me that!~
+@92   = ~Imoen, what do you think you're - oh, Torm! Ahahahaha! - stop th-!~
+@93   = ~Hee hee. Nothin' like a tickle attack to bring a mighty mage to her knees!~
+@94   = ~*Panting* Imoen... I will... have... my... revenge...~
+@95   = ~Hey, where'd my spellbook go?~
+@96   = ~What, did it grow legs and walk away?~
+@97   = ~Maybe. Nah - there it is! How'd it get all the way over there?~
+@98   = ~I still say it walked.~
+@99   = ~Hah hah. Now get back over here little - hey, it's floating away!~
+@100  = ~How odd.~
+@101  = ~Get back here, spellbook! You're mine! No, don't go floating up into the air!~
+@102  = ~You have to be smarter than the book, Imoen.~
+@103  = ~Not funny! Get down here!~
+@104  = ~Your wish is my command.~
+@105  = ~What - ow! Hey! You've been making little movements with your fingers this whole time! No fair!~
+@106  = ~A little telekinetic cantrip goes a long way, doesn't it?~
+@107  = ~I knew it! You... you - oh, alright! Hee hee. I guess I was askin' for it.~
+@108  = ~I did tell you I'd have my revenge, didn't I?~
+@109  = ~I'll forgive ya on one condition.~
+@110  = ~Oh?~
+@111  = ~You teach me that spell! The things I could nab with that...~
+@112  = ~You're the would-be wizard, Imoen. Learn it yourself.~
+@113  = ~Huh. Val, what's with this weird stuff in your notebook? I think I've seen this stuff in Candlekeep before, but I sure don't know what it is.~
+@114  = ~It's written in Celestial, Imoen, and you aren't supposed to be reading it. I lent you my notebook only so you could study my notes on magic.~
+@115  = ~Celestial, huh? What're you doing writing in that?~
+@116  = ~Writing notes. Don't give me that look, Celestial is very easy to learn, and infinitely more expressive than any other language I've seen.~
+@117  = ~You call an extraplanar language easy?~
+@118  = ~I don't get you. This stuff rolls right off the tongue.~
+@119  = ~If you say so, Val. I say you're a freak.~
+@120  = ~Everyone else just studied elven in hopes of talking their way into an elf's pants. Then again, you're not the first to call me a freak.~
+
+/* --------- *
+ *  Viconia  *
+ * --------- */
+@121  = ~Ah, I see the little sorceress' eyes still smolder when she gazes at me.~
+@122  = ~Saving you from the Flaming Fist was a mistake, Nightcloak. Expect no misguided sympathy from me.~
+@123  = ~Ah, so you know of Shar's faithful.~
+@124  = ~Wretched, depraved, corrupt... Yes, you could say I know of Shar's faithful. They do keep Athkatla's Silverstars busy.~
+@125  = ~Curious you condemn me for my prayers and not my race. Are you not afraid of the drow, little sorceress?~
+@126  = ~I do fear the drow, but I do not fear *you.* It's hard to be scared by someone who owes you her life.~
+@127  = ~Such a curious gift of yours, rivvil. Slaves with the gift of sorcery are always pursued with great interest.~
+@128  = ~I don't care what the drow do, Viconia. I have no plans of traveling to the Underdark.~
+@129  = ~It is a dangerous trait in a slave, yet also quite valuable if the slave can be properly broken.~
+@130  = ~I still don't care.~
+@131  = ~Ah, but the drow view is not unique, I think. What of these Cowled Wizards you serve?~
+@132  = ~If you're about to insinuate that I'm a slave to the Cowled Wizards, my magic makes me an interesting slave to them like it would to the drow, blah blah blah, I *really* still don't care.~
+@133  = ~Do you care so much for your chains, sorceress?~
+@134  = ~Duty is not a shackle.~
+@135  = ~Hahahaha. As you wish, rivvil.~
+@136  = ~Stop sitting on the edge of the camp, Viconia. You're not doing a good job of hiding. Might as well close to the fire where it's warm.~
+@137  = ~Very curious, rivvil. Your night vision should have been destroyed by looking into the fire so. Your argent eyes are more than they appear.~
+@138  = ~Congratulations. You have successfully figured out that I'm a sorceress and have unnatural abilities.~
+@139  = ~Or perhaps more than that. Your blood runs strongly, sorceress. You are worth much to your owners.~
+@140  = ~Whereas you are worth nothing to anyone, Nightcloak, even to your goddess.~
+@141  = ~Hahaha! I was wondering what it would take to draw the mewling kitten's claws. Your roar is all out of proportion to your bite.~
+@142  = ~Why do I even bother trying to talk to you?~
+@143  = ~Because you appear to enjoy futility. Now leave me be.~
+
+/* --------- *
+ *  Branwen  *
+ * -----++-- */
+@144  = ~It is good to see you eating properly for once, mageling! The Cowled Wizards must have forced you to starve!~
+@145  = ~I'm increasing my diet because I'm getting a lot more exercise, but I'm not going to stuff my face like you do.~
+@146  = ~You are tall, but it is all skin and bones! You look like a stripling lad, not a proper woman!~
+@147  = ~Branwen, do you *really* have to talk to me about this in earshot of the others?~
+@148  = ~You must continue to eat and fill out those robes, girl! No man wants a woman who does not have proper bosoms and whose ribs show!~
+@149  = ~We are not having this conversation.~
+@150  = ~Branwen, could you please stop challenging everyone in earshot to arm-wrestling competitions whenever we stay at an inn? They look at us oddly already.~
+@151  = ~Why should I cease? It is not so glorious as battle, but every contest of strength and might honors Lord Tempus!~
+@152  = ~...Moonshae women really are a different breed, aren't they?~
+@153  = ~Life is glorious, as is war. Both are to be relished.~
+@154  = ~For their own sake?~
+@155  = ~Why else? The simplest pleasures are the finest, mageling.~
+
+/* ----- *
+ *  Xan  *
+ * ----- */
+@156  = ~So, Xan, how are we doomed today? Bandits? Giant spiders? A legion of xvarts?~
+@157  = ~What does it matter? The form our doom takes does not change the certainty of it.~
+@158  = ~You sure you're not a cleric of Sehanine Moonbow? She's the elven goddess of death, if I remember my classes right.~
+@159  = ~Your studies do you credit, sorceress, but one need not be a Starsinger to know our doom.~
+@160  = ~I don't get why knowing your death is inevitable is cause for depression.~
+@161  = ~You wouldn't. Human lives are such fleeting things. You do not comprehend the value of what should be centuries, cut short.~
+@162  = ~Your magical abilities are oddly appropriate, sorceress. Accomplishing with force of will what my people manage through artistry and years of study.~
+@163  = ~Don't look at me like that, Xan. I didn't exactly have a choice about my gift.~
+@164  = ~Yet can you truly say you would rather have been born without it?~
+@165  = ~I don't know what my life would be like without it. I'm happy enough with my current life, so why worry about what could have been?~
+@166  = ~You are very human.~
+@167  = ~Are you flirting with me, Xan?~
+@168  = ~No.~
+@169  = ~*sigh* I was joking.~
+@170  = ~Xan, are magical abilities like mine common among the elves?~
+@171  = ~They have been recorded on occasion. Rarely, but not unknown.~
+@172  = ~Any idea where they come from?~
+@173  = ~Exposure to intense magical energies, intimate contact with magically powerful entities, and similar phenomena. It is often hereditary, if recessive.~
+@174  = ~Interesting. My parents had no interaction with magic, as far as I know. Hmmm...~
+@175  = ~You are unwilling to consider that you may be happier if you do not investigate?~
+@176  = ~Why would it make me unhappy?~
+@177  = ~Have you ever heard of the fey'ri, Valerie Lysander?~
+@178  = ~Hmmm... I think I heard the name during my classes, but I couldn't tell you what it is.~
+@179  = ~*They* are known for their sorcerous gifts. Look them up, and you may learn to leave well enough alone.~
+
+/* ------- *
+ *  Coran  *
+ * ------- */
+@180  = ~I did not dare imagine that the sun's rays would take such beautiful form, Valerie. Might I linger a while yet in your glow?~
+@181  = ~Uh, um, sorry. I, uh, don't find elves very attractive.~
+@182  = ~By your words, you must be one of Sune's fanatics, yet your blush and quickness of breath suggest you don't believe your own words.~
+@183  = ~Calm down, Valerie, slow and deep breaths, stop blushing... Coran, you have the body of a teenage boy, and the attitude of the same. If I wanted a teenage boy, I'd be dating one.~
+@184  = ~Do you wound all suitors with such biting arrows?~
+@185  = ~Suitor?! Uh. Um. No. Go away. Please?~
+@186  = ~So are all elves as obsessed with sex as you are, Coran, or are you an exception to the rule?~
+@187  = ~Not half as obsessed with sex as you are, dear sorceress.~
+@188  = ~I'm not the one flirting with anything that has breasts.~
+@189  = ~Ah, but you are the one who sees an appreciation of beauty and passion and immediately jumps to the bedroom.~
+@190  = ~Wait, what?~
+@191  = ~Physical intimacy is always enjoyable, but life is in zest and passion, not simply grunting and sweating. Your rebukes are a poor disguise for your curiosity.~
+@192  = ~Do my eyes deceive me, dear sorceress, or have I noticed an interest in female beauty most unbecoming of a woman in you?~
+@193  = ~I am a sorceress, Coran. I am a freak by definition. What's one more unnatural interest?~
+@194  = ~I was not mocking you, quite the contrary. Hanali Celanil delights in passion and love of beauty, no matter whose beauty that might be.~
+@195  = ~Wow. I thought the rumors that all elves didn't care who they slept with were just that. No wonder there are so many elves in the brothels of Athkatla.~
+@196  = ~Is our sorceress implying firsthand knowledge of such places, hmmm?~
+@197  = ~(Valerie blushes deeply) Uh, not in that way. Part of my apprenticeship was doing paperwork and basic lab work for a full Cowled Wizard, and there was an incident involving a conjurer working in the brothels.~
+@198  = ~Oh, my. I never thought of that...~
+@199  = ~You know, Sune and Hanali Celanil are rivals, but friendly ones. Beauty and passion are to be celebrated, no matter the race. Why will you not join me, fair maiden?~
+@200  = ~Shocking as this revelation might be, Faerun does not revolve around your pants and the contents thereof.~
+@201  = ~Haha! She brandishes her rapier at last!~
+@202  = ~At least I have one, in any sense of the word.~
+@203  = ~Why, you sound like you've been practicing your wit, fair Valerie.~
+@204  = ~You're not a very good teacher, Coran. I had to learn wit from less, shall we say, distracted tutors.~
+@205  = ~Fair enough! Dear Winsome Rose, what have I unleashed upon the Realms?~
+
+/* ------- *
+ *  Minsc  *
+ * ------- */
+@206  = ~As Boo understands it, you are one of this land's wychlaran, yes?~
+@207  = ~If I understand what a wychlaran is correctly, then yes.~
+@208  = ~See, Boo? I told you this land was not so strange as you thought!~
+@209  = ~Erm, Minsc? There are men in the Cowled Wizards, too.~
+@210  = ~Aye, vremyonni. We would like to visit this Amn of yours. Are there berserkers and ale in Amn?~
+@211  = ~Ale, yes. Berserkers... uh, I'm sure you could find a few.~
+@212  = ~Then to Amn we shall go! Boo, we shall see the mettle of Amn's lodges!~
+@213  = ~Minsc, are you all right? You don't need to always charge to the front of the battle.~
+@214  = ~I am a warrior of Rasheman! Warriors of Rasheman exist to fight evil, and evil exists to be chopped into tiny pieces for Boo to nibble on!~
+@215  = ~Even so, wouldn't you prefer a bow? You almost always end up taking a beating.~
+@216  = ~Have no fear, Amnish witch. You may continue to take refuge behind me in battle.~
+@217  = ~If you're sure you're okay with it.~
+@218  = ~I fight evil with my sword arm and my boot! Boo fights evil with his sharp teeth! You fight evil with magic! It is all fine in the eyes of the Three!~
+@219  = ~Valerie, Boo has noticed you often laughing at us in battle.~
+@220  = ~You're funny, Minsc. Watching a Rashemar giant and his pet hamster charge into battle isn't something you see every day in these lands.~
+@221  = ~You see, Boo? I told you we are inspiring figures in battle!~
+@222  = ~I think you're a few bats short of a belfry, Minsc. It does seem to work for you, though.~
+
+/* ---------- *
+ *  Dynaheir  *
+ * ---------- */
+@223  = ~I am given to understand thou art a wychlaran of thy land, Valerie.~
+@224  = ~I'm sorry, but what's a wychlaran? All I know about Rasheman is that it's a very, very long way from Amn.~
+@225  = ~In Rasheman, girl-children with skill in magic are taken by the Hathran and taught the ways of the wychlaran. Outsiders call us witches. 'Tis a high station among my people.~
+@226  = ~I suppose you could call me an Amnish wychlaran, then. It's a mixed blessing, though. We have a healthy fear of magic in Amn, and the Cowled Wizards wield magic while protecting our people from the same.~
+@227  = ~'Tis a sensible reaction. I suspect our lands mayhap have more in common than one might think.~
+@228  = ~Anything's possible, I suppose.~
+@229  = ~What's it like, living in a place where magic is actually accepted? You make it sound like the wychlaran are loved in Rasheman. The Cowled Wizards are not so fortunate in Amn.~
+@230  = ~'Tis a great honor to be chosen by the Hathran, yet can often be a difficult burden. Even an ethran, the lowest of the wychlaran, is expected to lead.~
+@231  = ~True. The place of the strong is between the weak and those who would prey upon them. Still... Rasheman sounds like an amazing place.~
+@232  = ~Sadly, 'tis less welcoming of outsiders than I sense thou wouldst wish. I suspect thy place is here.~
+@233  = ~Yeah, I know. Doesn't stop me from dreaming, though.~
+@234  = ~Thou wouldst consider thyself a dreamer?~
+@235  = ~I suppose I would.~
+@236  = ~Dreams doth have power, Valerie, even those that lack the seer's touch.~
+@237  = ~Maybe. I believe that dreams mean little unless you can use them to change reality.~
+@238  = ~'Tis not a bad thing to believe. Dreams have power, but all must eventually wake.~
+@239  = ~Dynaheir, do the Rashemi know much of powers like mine?~
+@240  = ~If thou speakest of thy proclivity for magic, I know no more than thee, I suspect.~
+@241  = ~Figures. Thanks anyway.~
+@242  = ~Wherefore doth it concern thee so?~
+@243  = ~Magic is power, Dynaheir. I don't understand my magic, and can't completely control it. I want to understand it so I can control it.~
+@244  = ~Valerie, seekest thou power over thyself, or power over others?~
+@245  = ~I don't want power at all, but I'm stuck with it. I guess that means I want power over myself.~
+@246  = ~If thou wouldst permit, I would fain teach thee techniques to help thee center thyself.~
+@247  = ~You'd do that for an outsider?~
+@248  = ~*Dynaheir laughs* These are not secrets of the wychlaran. I would not reveal that such secrets existed.~
+@249  = ~I'd like that, then. Thank you, Dynaheir.~
+@250  = ~Dost thou feel more in control of thyself?~
+@251  = ~Not really.~
+@252  = ~Thou thinkest too much of thyself. Canst thou truly not forget thyself?~
+@253  = ~What's that supposed to mean?~
+@254  = ~That thou art too conscious of thyself. Thou wishest not to look the fool.~
+@255  = ~Of course I don't. Foolish mistakes get people killed.~
+@256  = ~Not all of the time. Thou treatest all of life as a battle of life against death. Life doth hold more than that.~
+@257  = ~I don't want to make mistakes.~
+@258  = ~Mistakes are part of life, Valerie. The perfection thou seekest is an impossible task. Thou must learn to live.~
+
+/* ------- *
+ *  Edwin  *
+ * ------- */
+@259  = ~So you're a Red Wizard of Thay, correct?~
+@260  = ~Congratulations are in order. The mageling demonstrates basic skills of observation.~
+@261  = ~Gee, thanks. You certainly proclaim your identity loudly enough.~
+@262  = ~True power has no need to hide among the lesser folk like a certain organization of witches I could name.~
+@263  = ~I agree. The better to be recognized and respected for the power we wield to defend those less magically gifted.~
+@264  = ~No, no, no. The better to be recognized and feared for the power we wield to rule those less magically gifted.~
+@265  = ~Uh, I was giving you the benefit of the doubt, Edwin. I've read about the Red Wizards.~
+@266  = ~Bah! Another simpering coward. I had expected more of you, Cowled Wizard.~
+@267  = ~The Second Law of Transmutation.~
+@268  = ~The magical energy needed to reverse a transmutation must equal or exceed the energy used to cause the transformation. Krassus' Maxim.~
+@269  = ~It is impossible to determine whether any given spell will survive the death of its caster. Bah! Larloch's Postulate.~
+@270  = ~I know this one... As magical power contained within one body approaches infinity, it also approaches divinity. The Blackstaff Axiom.~
+@271  = ~No power is unique. Everything you can do, so can someone else. Even that fool has his moments of wisdom. Nineteenth Rule of Azuth.~
+@272  = ~Nineteenth rule... nineteenth rule... uh...~
+@273  = ~Only the will of a sentient mind can shape magic! Bah! You sorcerers are a disgrace to mages everywhere. You have no appreciation for the details of power.~
+@274  = ~I know, Edwin. I've tried studying magic the normal way. I even understood most of what you wrote in your spellbook when you let me have a look. It's just... how do you *remember* all of that?~
+@275  = ~With sufficient dedication to the craft and the ends I use it for. Bah. Why did I ever decide you might be worth teaching?~
+@276  = ~Because I appealed to your titanic ego? Edwin, you were beaming when I asked if I could learn from your formidable talent for and experience with magic. I thought you might know something the Cowled Wizards didn't that I could then pass on to them.~
+@277  = ~(Note to self: no do-gooders for apprentices in the future. More trouble than they're worth.)~
+@278  = ~So, what do you think of my treatise?~
+@279  = ~It is acceptable, for a half-witted Amnish sorceress. Your reasoning and methodology are sound, and I applaud your recognition of the remarkable strides Thayvians have made in arcane science.~
+@280  = ~You are feared for a reason. And my thesis?~
+@281  = ~Nothing new to the Red Wizards, but insightful for this land. Many see the Weave as an energy to be manipulated. Few outside Thay realize it is a force that then acts upon energy.~
+@282  = ~From what I've gathered and tested, magic is little different from gravity, or any other mundane physical force. Might magic genuinely be a fundamental force of reality that we have learned to manipulate?~
+@283  = ~You suggest that magic is but a mundane science?~
+@284  = ~I do. It's one we know so much more about and can do a lot of interesting things with, but I wonder what mundane sciences might do if we gave them the same effort.~
+@285  = ~Bah! It is magic that shapes this world.~
+@286  = ~You're the Red Wizard.~
+@287  = ~Never forget it, mageling.~
+@288  = ~For a self-righteous do-gooder and sorceress besides, you are acceptable intellectual company.~
+@289  = ~You're an arrogant and petty tyrant with no people skills, but I acknowledge that I've learned a lot about magic from you.~
+@290  = ~As well you should. Were your beloved sense of right and wrong sufficiently pliable, you would be acceptable material for a Thayvian apprentice.~
+@291  = ~Emphasis on the material. I've heard stories about the academies of Thay. Brilliant, yes, but places where human life has very little value.~
+@292  = ~Human lives are a renewable resource.~
+@293  = ~...You're evil, Edwin.~
+@294  = ~So you claim. History is written by the victors.~
+
+/* ------ *
+ *  Xzar  *
+ * ------ */
+@295  = ~Ow! What the hell was that for?!~
+@296  = ~One moment. Please hold still while I collect my sample.~
+@297  = ~Like hell I will! What do you want with my blood?!~
+@298  = ~How very inconsiderate of you! You just destroyed a perfectly good sample of sorcerous blood! Do you have any idea how potent a reagent the blood of a sorcerer is?~
+@299  = ~No, and I don't want to know. <CHARNAME>, are you *sure* you're okay with this lunatic?~
+@300  = ~Now, now. We're all friends here, aren't we?~
+@301  = ~Ugh. New rule: minimum five feet of distance between me and Xzar at all times...~
+@302  = ~Valerie, my dear, I have a few scientific inquiries for you.~
+@303  = ~I want nothing to do with your idea of science.~
+@304  = ~What was your mother?~
+@305  = ~Huh? She's human.~
+@306  = ~That does not match the empirical evidence. Well, that or your father caroused quite raucously with certain unusual summoned creatures primarily found in the-~
+@307  = ~Simply put, you're mad.~
+@308  = ~Am I? Or are you the mad one? You call yourself human. You're not. Blood doesn't lie, you know. It's really quite honest. Not the best conversationalist, but a terrific listener and wouldn't lie if you bit its toes off.~
+@309  = ~I know I'm a sorcerer. Which means one of my ancestors wasn't human. Or at least, one of them was warped by magic. Just... drop it, please?~
+@310  = ~Who am I to deny a lady's request?~
+@311  = ~Xzar, what is up with you? Sometimes you're pestering us for stories about rabbits, sometimes you're trying to perform hideous experiments over dinner, sometimes you seem almost sane.~
+@312  = ~If you were mad, would you know it? Or would everyone else around you seem to go insane?~
+@313  = ~Xzar-~
+@314  = ~You call them eyes and ears. I call them the tasty bits.~
+@315  = ~You're in-~
+@316  = ~-Sane, I know. People do keep saying that. I've never quite understood why.~
+@317  = ~There's a place called Spellhold waiting for you. As much for your safety as everyone else's.~
+
+/* ---------- *
+ *  Montaron  *
+ * ---------- */
+@318  = ~What're ye looking at, spell-slinger?~
+@319  = ~You're, uh, not-~
+@320  = ~Not like the usual mewlin' halflin' idiot.~
+@321  = ~I wasn't going to put it like that.~
+@322  = ~Then shut yer trap if ye don't have anythin useful to say.~
+@323  = ~I'd pay money to see it.~
+@324  = ~See what?~
+@325  = ~Ye and that wench at the last inn. Ye were makin eyes at each other.~
+@326  = ~Disgusting little goblin! That's none of your business!~
+@327  = ~Haha! Why didn't ye say ye were goin at it! I'da paid good money!~
+@328  = ~I did not sleep with Julia! She just needed someone to talk to. Things are pretty bad for people on the Sword Coast.~
+@329  = ~Sure ye didn't.~
+@330  = ~I'm leaving. Now.~
+
+/* --------- *
+ *  Garrick  *
+ * --------- */
+@331  = ~What's gotten into you, Garrick? You don't need to flinch every time I look in your general direction.~
+@332  = ~Yes, ma'am! Sorry, ma'am!~
+@333  = ~Ma'am? Garrick, what's going on?~
+@334  = ~You're a Cowled Wizard, ma'am. You people come down like a sack of bricks on anyone who looks at you funny, like Naljier Skald. I don't want to be sent to Spellhold, ma'am.~
+@335  = ~One, my name is Valerie. Two, Naljier Skald was up to something incredibly dangerous you don't need to know about. Three, I don't have jurisdiction this far north. Four, I am *not* going to arrest people just for casting magic.~
+@336  = ~You won't? Really?~
+@337  = ~Relax, Garrick. Our duty is to protect Amn from magical dangers. You aren't a danger to Amn, magical or otherwise.~
+@338  = ~Oh, whew. Guess you shouldn't believe every bard's tale, huh?~
+@339  = ~Indeed not. That said, you're probably going to embellish your tales of our adventures anyway, aren't you?~
+@340  = ~Hey!~
+@341  = ~I'll take that as a 'yes.'~
+@342  = ~So I was thinking, we start with a beautiful maiden with magical powers on the run from the evil wizards-~
+@343  = ~The Cowled Wizards aren't evil, Garrick.~
+@344  = ~But the Dark Cloaks are! Anyway, they're hunting the maiden for her magical powers, maybe with unseemly interest from their leader, and chase her out of the kingdom until she's forced to join a band of heroes to protect herself...~
+@345  = ~Alright, I'm listening.~
+@346  = ~She's very sheltered from growing up in the forest with her beautiful mother, and a handsome, roguish young man in the adventuring party starts showing her the ropes of life on the road. Now, the maiden doesn't realize it, but she and her companion are starting to fall in love-~
+@347  = ~Garrick?~
+@348  = ~Yes?~
+@349  = ~I'm flattered. You're cute, I like listening to your ideas for plays, and I think you're a better person than you give yourself credit for, but you're barking up the wrong tree.~
+@350  = ~...Huh. What kind of tree am I barking up?~
+@351  = ~One that prefers women. I'm sorry, Garrick, but I didn't want to lead you on or give you the wrong idea.~
+@352  = ~Oh well. So, the beautiful maiden and a tough young woman raised in the wilds as a ranger by her uncle...~
+@353  = ~Wow. You've actually met Raelis Shae?~
+@354  = ~'Met' would be overstating it. I was a gofer when the Wizards were checking out the troupe and their gear.~
+@355  = ~You wouldn't believe the stories I've heard about them! They show up out of nowhere across Faerun to put on plays, and they're really good ones!~
+@356  = ~They *are* extraplanar, Garrick.~
+@357  = ~Really? Could you arrange for me to meet them? You know, after this is all over?~
+@358  = ~I don't know... I'm uncertain what plane they're from, but there's something about them that makes my skin crawl. Especially their leading man... Haer'Dalis, was it?~
+@359  = ~You really haven't heard of them?~
+@360  = ~Cowled Wizard apprentices don't exactly have time for theater.~
+@361  = ~Call it a date?~
+@362  = ~Down, boy.~
+@363  = ~Awww.~
+
+/* ------- *
+ *  Kivan  *
+ * ------- */
+@364  = ~Kivan, I'm sorry about your Deheriana. If there's anything I can do to help...~
+@365  = ~You can help by doing your job in battle and remaining silent outside of it.~
+@366  = ~Sorry. I only wanted to help.~
+@367  = ~I do not want or need your help, sorceress. Leave me be.~
+@368  = ~Stop. Those leaves are highly toxic.~
+@369  = ~I know. That's why I'm wearing gloves while crushing them and have boiling water ready to dilute the results.~
+@370  = ~I see. You're brewing a potion.~
+@371  = ~I'm not a great alchemist or even a good one, but this potion's simple enough to make and I brewed plenty of them during my apprenticeship.~
+@372  = ~What exactly are you brewing?~
+@373  = ~A minor vigor potion. We keep odd enough hours that I need some help staying awake and alert on occasion.~
+@374  = ~I see. Be careful with the leaves, sorceress.~
+
+/* ----------- *
+ *  Shar-Teel  *
+ * ----------- */
+@375  = ~Why are you looking at me like that, Shar-Teel?~
+@376  = ~Hmph. You, at least, have the right idea.~
+@377  = ~I don't know what you're talking about, but your approval fills me with shame regardless.~
+@378  = ~Hah. You've decided no man is worthy of you. Good move from a weakling like you.~
+@379  = ~I don't dislike men. I'm just not attracted to them.~
+@380  = ~Bah! Shouldn't have expected any backbone from a sniveling brat like you.~
+@381  = ~You, sorceress! Fetch my armor grease!~
+@382  = ~I'm not a dog to be ordered around, Shar-Teel. If your armor joints are squeaking, grease them yourself.~
+@383  = ~You're the one who's spent years as a servant! Earn your keep!~
+@384  = ~There's a world of difference between an apprentice and a servant. Not that I'd expect a sow like you to understand.~
+@385  = ~Hahaha! You do have a little fight in you!~
+@386  = ~Yes. Now if only you could save your vitriolic tongue for the enemy.~
+@387  = ~How about you talk the enemy to death instead? It would be better than your limp-wristed magic.~
+@388  = ~Gods above, I'll stop talking if you will.~
+@389  = ~Sorcery, huh? You don't look like someone with magical blood.~
+@390  = ~I don't want to imagine what you think I look like.~
+@391  = ~Just another prissy noble girl. Maybe a good whore. Like there's a difference.~
+@392  = ~To a sow that learned to talk and walk on its hindquarters, I suppose there isn't.~
+@393  = ~Maybe we should rent you out at the next town. You use that tongue for magic enough, I bet it's good for other things.~
+@394  = ~You are a disgusting piece of filth that I am ashamed to call human. No one will mourn your death, Shar-Teel. No one will remember your name. You will be buried in an unmarked grave if you're lucky enough to be buried at all rather than be left for animals to feast on. Now back. The hell. Off. Before I make that come to pass, <CHARNAME>'s feelings be damned.~
+
+/* -------- *
+ *  Kagain  *
+ * -------- */
+@395  = ~I don't understand you, girl. If your Cowled Wizards love protectin' people so much, why don't they guard my caravans?~
+@396  = ~Beregost is Baldur's Gate territory. Frankly, I'm surprised the Flaming Fist hasn't given me trouble already.~
+@397  = ~Don't be daft. You're Amnish. You know a coin in the right pocket can get you anything.~
+@398  = ~There are larger concerns than your purse, Kagain.~
+@399  = ~Are there, now? I want those concerns' heads mounted on my office wall.~
+@400  = ~You huffin' and puffin' already, toothpick? A stiff wind could break you in half by the looks of it.~
+@401  = ~I can keep up, nevermind that half of me would be only marginally shorter than you. Not everyone's graced with the resilience and personality of a large rock.~
+@402  = ~To a dwarf, that's a high compliment! Moradin made us tough as stone! More than can be said for you, skinny.~
+@403  = ~Ugh. Concentrated dwarf smugness is exceeding recommended levels. I suggest we move on before I choke.~
+@404  = ~Hahaha! At least you're too tall to be a blasted elf.~
+@405  = ~Fine, you greedy troglodyte. Here's your winnings from the card game.~
+@406  = ~Hah. You can keep your gold, girl.~
+@407  = ~Huh? I thought you loved gold.~
+@408  = ~I love *winning* gold, girl. Putting you into a card game is like setting an elf child against a troll. You're too blasted honest for your own good.~
+@409  = ~...I'm not sure if that's a compliment or an insult.~
+@410  = ~Count it as a mercy this once. Play against me again, and I'll fleece you for all you're worth.~
+@411  = ~And if I choose not to play cards again?~
+@412  = ~Then you've learned something useful for once.~
+@
+/* ------- *
+ *  Alora  *
+ * ------- */
+413  = ~Alora, please give me back my notebook.~
+@414  = ~What notebook?~
+@415  = ~The one you filched from my things this morning when I was eating breakfast.~
+@416  = ~I'm telling you, I didn't steal no notebook!~
+@417  = ~Then why are your hands bright red? I reactivated that little enchantment as soon as I realized what kind of person you were.~
+@418  = ~Fine, grumpy-pants! Have your stupid book back! What kind of wizard makes an enchantment like that, anyway?~
+@419  = ~The kind that grew up around other wizards and is still a teenager, albeit not for long. I liked the literal spin on catching a thief red-handed.~
+@420  = ~You're no fun! I hope you like your book, grumpy-pants!~
+@421  = ~Hey, catch!~
+@422  = ~Ow! Alora, if you want to throw acorns, please give warning before you actually throw them!~
+@423  = ~You were supposed to catch it!~
+@424  = ~I was *trying* to write something down in my notebook.~
+@425  = ~Come on, grumpy-pants! Put your book away and have some fun!~
+@426  = ~Fun is for after I've finished my work.~
+@427  = ~Bo-ring! Come on, throw it back at me!~
+@428  = ~If you have nothing productive to contribute, stop talking.~
+@429  = ~Fine! I'll go have fun with someone who actually knows what that is!~
+
+/* --------- *
+ *  Faldorn  *
+ * --------- */
+@430  = ~So, you're a sorceress?~
+@431  = ~Accept no imitations.~
+@432  = ~'Yes' was all you needed to say.~
+@433  = ~Sorry. Let me guess, you're about to condemn me as a freak.~
+@434  = ~Can't fault blood for running true. So many of Silvanus' mightiest children bear magic. It is a predator's gift.~
+@435  = ~It's really not.~
+@436  = ~Only because you are weak, and the strong will devour you. That is the way of nature.~
+@437  = ~Question for you, Faldorn.~
+@438  = ~Speak.~
+@439  = ~You think civilization is unnatural, right?~
+@440  = ~It is a fact, not a thought.~
+@441  = ~Are humans natural?~
+@442  = ~Of course.~
+@443  = ~Then why is civilization unnatural? In all my studies, humans always form social groups and construct some kind of civilization.~
+@444  = ~Because they forget their place! They forsake nature's glory for their own! They pillage a land that has stood for millions of years to build huts that are lucky to last one!~
+@445  = ~Oh. Okay.~
+@446  = ~Do not sneer at me, sorceress! You want my answer, and there it is!~
+@447  = ~I see. Perhaps we should avoid this subject in the future.~
+@448  = ~Bah!~
+
+/* --------- *
+ *  Yeslick  *
+ * --------- */
+@449  = ~Yeslick, do you have a minute? I'm trying to translate something from dwarven, and I'm not sure what a couple of these runes mean.~
+@450  = ~Let's have a look. Aye, that one means 'truth' and that one's 'beauty.' Moradin's anvil, what are ye doing with dwarven poetry, long-limbs?~
+@451  = ~Mainly? Trying to learn to read dwarven, and your runes for more abstract concepts are hard to decipher.~
+@452  = ~And ye picked blasted *poetry* to translate?~
+@453  = ~Um. Yes, actually. It's different from human poetry.~
+@454  = ~Ye don't blasted say! I don't know to be proud of ye or worried about ye, long-limbs!~
+@455  = ~Eighteen... nineteen... twenty... twenty-one...~
+@456  = ~Slow down there, girl. Yer wheezin' like ye've had a few too many drinks.~
+@457  = ~Ack! Sorry... Yeslick. Been... trying to exercise... more these days. Hadn't... realized how out of... shape I am.~
+@458  = ~More like yer built like a twig if ye ask me. Here, have some water before you collapse.~
+@459  = ~Thank you... Yeslick. Sorry. Still... catching my breath.~
+@460  = ~Which is why you pace yerself better, girl! Yer a mage, ye don't need to muscle up like a blasted battlerager.~
+@461  = ~I still need to keep up.~
+@462  = ~Aye, and it's a rare mage who bothers to try, but at least wait till ye can do fifteen without sweating before tryin for fifty.~
+@463  = ~But... nevermind. Point taken.~
+@464  = ~I'll be damned! Yer the first non-dwarf I've ever heard of reading all of Turan's poems!~
+@465  = ~Let me put it this way: if I have to hear love-making compared to mining one more time, I will find a pickaxe and lodge it in someone's skull. And that's *not* a euphemism.~
+@466  = ~Haw haw! Tired of a good woman bein' compared to a gemstone?~
+@467  = ~And to pursuing her being compared to prospecting for a good vein.~
+@468  = ~An' some dwarves wonder why long-limbs never read our poetry!~
+@469  = ~I used to wonder that, too. I don't anymore.~
+
+/* -------- *
+ *  Quayle  *
+ * -------- */
+@470  = ~Ack! Quayle, I didn't ask for your help with my notes!~
+@471  = ~See! A much more efficient way to organize your spellbook!~
+@472  = ~That isn't my spellbook! I don't bloody *have* one!~
+@473  = ~Then what's this book of spells and arcane diagrams, then? It's so much more organized now!~
+@474  = ~Except I CAN'T BLOODY READ GNOMISH! I'm a *sorceress*, Quayle! You just destroyed years of my notes and thoughts on arcane theory!~
+@475  = ~Oh. Not to worry! See? A simple enchantment reverts it all to the way you had it before!~
+@476  = ~You godda... oh. Thank you, Quayle. But for the love of every god and their mother, please don't meddle with my books unless you have my very explicit permission.~
+@477  = ~You're welcome. Always pleased to assist a fellow wizard!~
+@478  = ~It's really quite simple, you know.~
+@479  = ~What's simple?~
+@480  = ~Determining the source of your magic!~
+@481  = ~I don't have time for this.~
+@482  = ~Wait! It really is simple! There are several divination spells that could tell you! It wouldn't be cheap to hire a wizard who could cast them, but you could easily afford it in a year or two!~
+@483  = ~...That is a possibility.~
+@484  = ~Why so glum? Don't you want to know?~
+@485  = ~Honestly, I don't know if I do or not. But thanks for the heads-up.~
+
+/* -------- *
+ *  Safana  *
+ * -------- */
+@486  = ~For the love of Torm, Safana, could you please stop swaying your hips and fluttering your eyelashes at almost everyone we meet?~
+@487  = ~Why, I think I detect a whiff of jealousy from our sorceress. Or is that something more pungent I smell?~
+@488  = ~Gah! You don't need to flaunt it to everyone we meet!~
+@489  = ~Why, it is more pungent than mere jealousy! How quaint!~
+@490  = ~Shut. Up.~
+@491  = ~Careful, dear. You don't want to permanently stain that pretty little face with blush.~
+@492  = ~Do stop growling at me, dear. It's terribly unbecoming of you.~
+@493  = ~I've seen too many vain, greedy, self-obsessed women like you in Athkatla.~
+@494  = ~Ashamed you aren't one of them, hmmm? No, you could never be a successful woman, little sorceress. You lack the drive.~
+@495  = ~And the absence of ethics, self-respect, and moral decency.~
+@496  = ~Oh, please! Spare me the moralizing lecture of how I am a shallow, deceitful harlot! I've heard it all before, dear.~
+@497  = ~I don't doubt it.~
+
+/* ------ *
+ *  Tiax  *
+ * ------ */
+@498  = ~Ugh. What was <CHARNAME> thinking when <PRO_HESHE> decided the band needed a Strifeleader as delusional as Cyric himself?~
+@499  = ~Cyric's wish is <CHARNAME>'s command! Only small minds question Cyric's will!~
+@500  = ~...I don't think talking with you is going to accomplish anything.~
+@501  = ~Tiax agrees that silence is preferable! So let it be.~
+@502  = ~You're a general danger to everyone around you, gnome, and notified my superiors as such in the last status report I sent them. My recommendation was to permanently remove you as a danger, one way or another.~
+@503  = ~Empty threats from an empty head. The Cowled Wizards shall fall before Tiax if they dare attack him!~
+@504  = ~We'll see about that, gnome.~
+
+/* -------- *
+ *  Eldoth  *
+ * -------- */
+@505  = ~Mmmm... not what I expected of a sorceress.~
+@506  = ~What did I say that sounded like 'Please undress me with your eyes and offer commentary'?~
+@507  = ~You're not worth undressing. I've seen elves with more ample figures than you.~
+@508  = ~I'm sure you have. How much did they cost?~
+@509  = ~A true man does not need to pay.~
+@510  = ~I agree. My question stands.~
+@511  = ~Begone from my sight, wench. You clearly have nothing to offer me.~
+@512  = ~Leer at me one more time, Eldoth, and they'll be looking for fragments of your face in Halruaa.~
+@513  = ~Charming as ever. I was merely recognizing that we have something in common after all. I was about to compliment you on your good taste.~
+@514  = ~We have nothing in common.~
+@515  = ~Valerie, my dear, you were all but drooling at that buxom redhead five minutes ago. I have long since learned to keep an eye on the competition.~
+@516  = ~I'm not going to warn you again.~
+@517  = ~Tsk, tsk. True. You lack the spine to be competition, much less worthy competition.~
+
+/* ------ *
+ *  Skie  *
+ * ------ */
+@518  = ~Valerie, could you take a look at my feet?~
+@519  = ~Your feet? Why?~
+@520  = ~They hurt.~
+@521  = ~...Well, no wonder. Skie, what could have possibly given you the idea that those shoes were acceptable for hiking?~
+@522  = ~Well, they're what I had on.~
+@523  = ~Next time we're near a cobbler, you are getting some sturdy boots. Period.~
+@524  = ~But-~
+@525  = ~Even I'm more used to travel than you are, and that's saying something.~
+@526  = ~Could I learn magic like yours?~
+@527  = ~No, and I have no idea why you'd want to.~
+@528  = ~Casting magic would be neat! I wouldn't have to study a spellbook, either!~
+@529  = ~And be subject to dangerous arcane forces you can't control?~
+@530  = ~You control yourself!~
+@531  = ~Because I've been trained to do so. And you, Skie Silvershield, have no discipline that I know of.~
+@532  = ~You're like daddy's friend, Liia Jannath.~
+@533  = ~How so?~
+@534  = ~You hate the idea that someone enjoys something you don't like. You can't stand someone taking joy in what you consider so serious.~
+@535  = ~Valerie?~
+@536  = ~What is it now?~
+@537  = ~I'm sorry.~
+@538  = ~Huh? About what?~
+@539  = ~I know I'm not a very good adventurer. I know daddy was right, that I'm not meant for this.~
+@540  = ~Skie, I...~
+@541  = ~You're right to look down on me. I've been miserable ever since leaving home.~
+@542  = ~I didn't mean-~
+@543  = ~But home is in danger. Daddy's in danger. I have to do something, even if I'm not very good at it.~
+@544  = ~...Skie. I did think very badly of you. I was wrong.~
+@545  = ~No, you weren't. None of you are, to think I'm weak and sheltered. But here I am. I am the daughter of Entar Silvershield, Grand Duke of Baldur's Gate, and I want daddy to be proud of me for once in his life.~
+@546  = ~Skie?~
+@547  = ~I did misjudge you. Come what may, there are worse people to travel and fight alongside.~
