@@ -46,6 +46,10 @@ ALWAYS
 			INCLUDE ~valerie/lib/liam_bgee_vars.tpa~
 			PRINT @24	// ~Baldur's Gate Enhanced Edition install detected.~
 		END
+		ACTION_IF is_eet BEGIN
+			INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
+			PRINT @25	// ~Enhanced Edition Trilogy install detected.~
+		END
 
 
 	/* --------------------------------------------------------------------------------------------- *

@@ -18,7 +18,9 @@
 
 ## <a name="intro" id="intro"></a>Overview
 
-With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disasters plaguing Amnish territory on the Sword Coast, a young Cowled Wizard has taken it upon herself to learn the truth of the matter. Adventurers willing to work with a Cowled Wizard will find a willing ally in their Nashkel investigations and beyond.| |This mod includes a friendship with flirtation opportunities, banters, interjections and comments on the world of Baldur's Gate.
+With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disasters plaguing Amnish territory on the Sword Coast, the Cowled Wizards of Amn have become involved in the looming conflict. Dedicated to controlling the use of magic in Amn and destroying magical threats to that nation, on the Sword Coast they act in support of the Amnish army. And with the rumors of demons in the mines of Nashkel, one young Cowled Wizard has taken it upon herself to learn the truth of the matter. Adventurers willing to work with a Cowled Wizard will find a willing ally in their Nashkel investigations and beyond.
+
+The Valerie NPC mod contains a friendship for a PC of any race and gender with flirt opportunities for both genders that can be considered PG material.
 
 <hr>
 
@@ -37,7 +39,7 @@ With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disa
 - TODO Commented code as much as possible.
 - TODO Replaced `GAME_IS` conditions with variables checks to speed up install time.
 - TODO Added EET compatibility.
-- TODO Updated cpmvars files.
+- Updated cpmvars files.
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - Simplified area type flagging and Tutu area script assignment patching.
 - TODO Fixed Valerie portraits in EE games.
