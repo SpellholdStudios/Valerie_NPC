@@ -18,6 +18,7 @@
 
 ## <a name="intro" id="intro"></a>Overview
 
+With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disasters plaguing Amnish territory on the Sword Coast, a young Cowled Wizard has taken it upon herself to learn the truth of the matter. Adventurers willing to work with a Cowled Wizard will find a willing ally in their Nashkel investigations and beyond.| |This mod includes a friendship with flirtation opportunities, banters, interjections and comments on the world of Baldur's Gate.
 
 <hr>
 
@@ -30,7 +31,7 @@
 - TODO Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - TODO Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
-- TODO Added Modmerge check for SoD games.
+- Added Modmerge check for SoD games.
 - TODO Added component `DESIGNATED` number and "*valerie_npc_for_bg*" `LABEL`.
 - Externalized tp2 code into *main_component.tpa* library for more comfortable readability and maintenance.
 - TODO Commented code as much as possible.

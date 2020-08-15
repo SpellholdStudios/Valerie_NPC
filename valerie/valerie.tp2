@@ -12,6 +12,12 @@ ALWAYS
 
 	ACTION_IF NOT VARIABLE_IS_SET is_tutu BEGIN // check to make this happen only once per install
 
+	/* -------------------------- *
+	 *    Sod: Modmerge check.    *
+	 * -------------------------- */
+		ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) BEGIN FAIL @21 END
+
+
 	/* -------------------------------------------------------------------------------- *
 	 *    Determines which game is installed and if the game is an Enhanced Edition.    *
 	 * -------------------------------------------------------------------------------- */
