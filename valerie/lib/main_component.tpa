@@ -77,7 +77,7 @@ INCLUDE ~valerie/lib/ids_entries_gtimes.tph~
 // Tutu Area Script Assignment Patching: All Areas Script ID'd
 // -----------------------------------------------------------
 ACTION_IF is_tutu BEGIN
-	INCLUDE ~isra/lib/tutu_area_script_assign.tph~
+	INCLUDE ~valerie/lib/tutu_area_script_assign.tph~
 END
 
 // TotSC content

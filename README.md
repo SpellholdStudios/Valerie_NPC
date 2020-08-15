@@ -38,8 +38,8 @@ With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disa
 - TODO Replaced `GAME_IS` conditions with variables checks to speed up install time.
 - TODO Added EET compatibility.
 - TODO Updated cpmvars files.
-- TODO Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
-- TODO Simplified area type flagging and Tutu area script assignment patching.
+- Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
+- Simplified area type flagging and Tutu area script assignment patching.
 - TODO Fixed Valerie portraits in EE games.
 - Added Russian translation (by JamesMaxwell & Arcanecoast.ru).
 - Traified.
