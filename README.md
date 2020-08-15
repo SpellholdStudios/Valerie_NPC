@@ -28,7 +28,7 @@
 
 - TODO Added *valerie.ini* metadata file to support AL|EN's "Project Infinity".
 - TODO Replaced `AUTHOR` keyword with `SUPPORT`.
-- TODO Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
+- Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - TODO Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - TODO Added Modmerge check for SoD games.
 - TODO Added component `DESIGNATED` number and "*valerie_npc_for_bg*" `LABEL`.
