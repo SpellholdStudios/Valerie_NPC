@@ -52,6 +52,11 @@ LANGUAGE ~English~
          ~english~
          ~valerie/lang/english/setup.tra~
 
+LANGUAGE ~Russian (Translation: JamesMaxwell & Arcanecoast.ru)~
+         ~russian~
+         ~valerie/lang/russian/setup.tra~
+
+
 /* ============================================== *
  *  Valerie NPC Mod for BG:EE, EET, BGT and TuTu  *
  * ============================================== */

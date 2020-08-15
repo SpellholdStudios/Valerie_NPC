@@ -12,7 +12,7 @@
 
 
 **Author:** Tempest  
-**Mod Website and Forum:** <a href="http://www.shsforums.net/forum/617-valerie/">Isra NPC</a>  
+**Mod Website and Forum:** <a href="http://www.shsforums.net/forum/617-valerie/">Valerie NPC</a>  
 
 ## 
 
@@ -40,6 +40,7 @@
 - TODO Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - TODO Simplified area type flagging and Tutu area script assignment patching.
 - TODO Fixed Valerie portraits in EE games.
+- Added Russian translation (by JamesMaxwell & Arcanecoast.ru).
 - Traified.
 - TODO Updated deprecated modding tools links.
 - TODO Re-formated, updated and renamed readme file to *valerie-readme-english.html*, then moved it into new readme folder.
