@@ -1,0 +1,390 @@
+// ------------------------------
+// Friendship start
+// ------------------------------
+
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    Global("T2ValFriendship","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValFriendship","GLOBAL",1)
+END
+
+// Check if Mulahey is dead
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    Dead("mulahey")
+    Global("T2ValMulaheyAlreadyDead","GLOBAL",0)
+    Global("T2ValMulaheyCheck","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValMulaheyAlreadyDead","GLOBAL",1)
+    SetGlobal("T2ValMulaheyCheck","GLOBAL",1)
+END
+
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    !Dead("mulahey")
+    Global("T2ValMulaheyCheck","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValMulaheyCheck","GLOBAL",1)
+END
+
+// Start friendship
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    Global("T2ValMulaheyAlreadyDead","GLOBAL",0)
+    Global("T2ValFriendTalk","GLOBAL",0)
+    Dead("mulahey")
+    AreaType([OUTDOOR])
+    !Global("T2ValFriendship","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValFriendTalk","GLOBAL",1)
+    RealSetGlobalTimer("T2ValFriendTalkTimer","GLOBAL",10)
+END
+
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    Dead("mulahey")
+    Global("T2ValMulaheyAlreadyDead","GLOBAL",1)
+    Global("T2ValFriendTalk","GLOBAL",0)
+    !Global("T2ValFriendship","GLOBAL",3)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValFriendTalk","GLOBAL",3)
+    RealSetGlobalTimer("T2ValFriendTalkTimer","GLOBAL",2700)
+END
+
+
+// Triggering talks
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    RealGlobalTimerExpired("T2ValFriendTalkTimer","GLOBAL")
+    CombatCounter(0)
+    !See([ENEMY])
+    !Global("T2ValFriendship","GLOBAL",3)
+    OR(14)
+      Global("T2ValFriendTalk","GLOBAL",2)
+      Global("T2ValFriendTalk","GLOBAL",6)
+      Global("T2ValFriendTalk","GLOBAL",8)
+      Global("T2ValFriendTalk","GLOBAL",10)
+      Global("T2ValFriendTalk","GLOBAL",12)
+      Global("T2ValFriendTalk","GLOBAL",14)
+      Global("T2ValFriendTalk","GLOBAL",16)
+      Global("T2ValFriendTalk","GLOBAL",18)
+      Global("T2ValFriendTalk","GLOBAL",20)
+      Global("T2ValFriendTalk","GLOBAL",24)
+      Global("T2ValFriendTalk","GLOBAL",28)
+      Global("T2ValFriendTalk","GLOBAL",30)
+      Global("T2ValFriendTalk","GLOBAL",32)
+      Global("T2ValFriendTalk","GLOBAL",34)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    Dialogue(Player1)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    RealGlobalTimerExpired("T2ValFriendTalkTimer","GLOBAL")
+    !Global("T2ValFriendship","GLOBAL",3)
+    OR(11)
+      Global("T2ValFriendTalk","GLOBAL",1)
+      Global("T2ValFriendTalk","GLOBAL",5)
+      Global("T2ValFriendTalk","GLOBAL",7)
+      Global("T2ValFriendTalk","GLOBAL",9)
+      Global("T2ValFriendTalk","GLOBAL",13)
+      Global("T2ValFriendTalk","GLOBAL",15)
+      Global("T2ValFriendTalk","GLOBAL",17)
+      Global("T2ValFriendTalk","GLOBAL",23)
+      Global("T2ValFriendTalk","GLOBAL",27)
+      Global("T2ValFriendTalk","GLOBAL",31)
+      Global("T2ValFriendTalk","GLOBAL",33)
+THEN
+  RESPONSE #100
+    IncrementGlobal("T2ValFriendTalk","GLOBAL",1)
+END
+
+
+// FT 6: after bandit camp
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    GlobalGT("Chapter","GLOBAL",%tutu_chapter_3%)
+    Global("T2ValFriendTalk","GLOBAL",11)
+    !Global("T2ValFriendship","GLOBAL",3)
+    Global("T2ValBandits","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValBandits","GLOBAL",1)
+    RealSetGlobalTimer("T2ValFriendTalkTimer","GLOBAL",2700)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    RealGlobalTimerExpired("T2ValFriendTalkTimer","GLOBAL")
+    CombatCounter(0)
+    !See([ENEMY])
+    !Global("T2ValFriendship","GLOBAL",3)
+    Global("T2ValFriendTalk","GLOBAL",11)
+    Global("T2ValBandits","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("T2ValFriendTalk","GLOBAL",1)
+END
+
+// FT 10: After clearing cloakwood
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    GlobalGT("Chapter","GLOBAL",%tutu_chapter_4%)
+    Global("T2ValFriendTalk","GLOBAL",19)
+    !Global("T2ValFriendship","GLOBAL",3)
+    Global("T2ValCloakwood","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValCloakwood","GLOBAL",1)
+    RealSetGlobalTimer("T2ValFriendTalkTimer","GLOBAL",2700)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    RealGlobalTimerExpired("T2ValFriendTalkTimer","GLOBAL")
+    CombatCounter(0)
+    !See([ENEMY])
+    !Global("T2ValFriendship","GLOBAL",3)
+    Global("T2ValFriendTalk","GLOBAL",19)
+    Global("T2ValCloakwood","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("T2ValFriendTalk","GLOBAL",1)
+END
+
+// FT 15
+IF
+    InParty(Myself)
+    !Dead("t2val")
+    Global("T2ValFriendTalk","GLOBAL",29)
+    !Global("T2ValFriendship","GLOBAL",3)
+    GlobalGT("Chapter","GLOBAL",%tutu_chapter_6%)
+    Global("T2ValCandlekeep","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValCandlekeep","GLOBAL",1)
+    RealSetGlobalTimer("T2ValFriendTalkTimer","GLOBAL",600)
+END
+
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    RealGlobalTimerExpired("T2ValFriendTalkTimer","GLOBAL")
+    CombatCounter(0)
+    !See([ENEMY])
+    !Global("T2ValFriendship","GLOBAL",3)
+    Global("T2ValFriendTalk","GLOBAL",29)
+    Global("T2ValCandlekeep","GLOBAL",1)
+THEN
+  RESPONSE #100
+    IncrementGlobal("T2ValFriendTalk","GLOBAL",1)
+END
+
+
+
+//Area: %Temple_SongoftheMorning%
+IF 
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_temple","GLOBAL",0)
+    AreaCheck("%Temple_SongoftheMorning%")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_temple","GLOBAL",1)
+END
+
+//Area: %NashkelMines_L1%
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_mines","GLOBAL",0)
+    AreaCheck("%NashkelMines_L1%")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_mines","GLOBAL",1)
+END
+
+//Area %ValleyoftheTombs_Tomb%
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_valley","GLOBAL",0)
+    AreaCheck("%ValleyoftheTombs_Tomb%")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_valley","GLOBAL",1)
+END
+
+//Area %CloakwoodMines_L4% sub area: shrine to Bhaal (room NW of bedroom adjacent to elevator)
+/*
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_bhaal","GLOBAL",1)
+    AreaCheck("%CloakwoodMines_L4%")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_bhaal","GLOBAL",2)
+END  */
+
+//(If you flood the mine without freeing the slaves)
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_flood","GLOBAL",0)
+    !Global("FREESLAV","GLOBAL",1)
+    GlobalGT("FLOODED","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_flood","GLOBAL",1)
+END
+
+//Area %Candlekeep_Library_L1%
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_candlekeep","GLOBAL",0)
+    AreaCheck("%Candlekeep_Library_L1%")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_candlekeep","GLOBAL",1)
+END
+
+//(When Charname finds Gorion's letter - Shadowkeeper gave me an error when looking up the item code, and Tutu triggers a dialogue when you pick up the letter, and only if Global("T2ValFriendship","GLOBAL",1))
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_letter","GLOBAL",0)
+    Global("T2ValFriendship","GLOBAL",1)
+    PartyHasItem("%tutu_var%SCRL2J")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_letter","GLOBAL",1)
+END
+
+//In inventory: POTN48.itm
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_potion","GLOBAL",0)
+    PartyHasItem("POTN48")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_potion","GLOBAL",1)
+END
+
+//In inventory: BOOK03.itm, BOOK04.itm, BOOK05.itm, BOOK06.itm BOOK07.itm, or BOOK08.itm. Should only fire once regardless of which book you put in.
+IF
+    InParty(Myself)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    Global("T2Val_book","GLOBAL",0)
+    OR(6)
+      PartyHasItem("BOOK03")
+      PartyHasItem("BOOK04")
+      PartyHasItem("BOOK05")
+      PartyHasItem("BOOK06")
+      PartyHasItem("BOOK07")
+      PartyHasItem("BOOK08")
+THEN
+  RESPONSE #100
+    SetGlobal("T2Val_book","GLOBAL",1)
+END
+
+
+// Triggering talks
+IF
+    InParty(Myself)
+    See(Player1)
+    !StateCheck(Myself,CD_STATE_NOTVALID)
+    !StateCheck(Player1,CD_STATE_NOTVALID)
+    CombatCounter(0)
+    !See([ENEMY])
+    OR(9)
+      Global("T2Val_temple","GLOBAL",1)
+      Global("T2Val_mines","GLOBAL",1)
+      Global("T2Val_valley","GLOBAL",1)
+      Global("T2Val_bhaal","GLOBAL",2)
+      Global("T2Val_flood","GLOBAL",1)
+      Global("T2Val_candlekeep","GLOBAL",1)
+      Global("T2Val_letter","GLOBAL",1)
+      Global("T2Val_potion","GLOBAL",1)
+      Global("T2Val_book","GLOBAL",1)
+THEN
+  RESPONSE #100
+    MoveToObject(Player1)
+    Dialogue(Player1)
+END
+
+
+// Stringfixer
+IF
+    HotKey(K)
+THEN
+    RESPONSE #100
+        SetName(~Valerie~)
+        SetPlayerSound(Myself,~Wow. We're really making a difference, aren't we?~,HAPPY)
+        SetPlayerSound(Myself,~I don't know if that was really necessary...~,UNHAPPY_ANNOYED)
+        SetPlayerSound(Myself,~Ugh. You people are disgusting. I should have stayed in Amn.~,UNHAPPY_SERIOUS)
+        SetPlayerSound(Myself,~Sorry, but you'll have to go on without me.~,UNHAPPY_BREAKING_POINT)
+        SetPlayerSound(Myself,~I'm not sure I'm the best choice to lead, but I'll do my best.~,LEADER)
+        SetPlayerSound(Myself,~Up at all hours, no time for rest or sleep... reminds me of my apprenticeship.~,TIRED)
+        SetPlayerSound(Myself,~Hmmm. Anyone have a good book to read?~,BORED)
+        SetPlayerSound(Myself,~In Torm's name!~,BATTLE_CRY1)
+        SetPlayerSound(Myself,~This place shall be your grave!~,BATTLE_CRY2)
+        SetPlayerSound(Myself,~For Amn!~,BATTLE_CRY3)
+        SetPlayerSound(Myself,~I'm sorry... I couldn't...~,DYING)
+        SetPlayerSound(Myself,~Help! I can't stop the bleeding!~,HURT)
+        SetPlayerSound(Myself,~It's pretty here. Forests always seem to be home to all kinds of nasty critters, though.~,AREA_FOREST)
+        SetPlayerSound(Myself,~Kinda quaint compared to Athkatla. I think I prefer this, actually.~,AREA_CITY)
+        SetPlayerSound(Myself,~Ooooh, a dungeon... we're about to get attacked, aren't we?~,AREA_DUNGEON)
+        SetPlayerSound(Myself,~A nice day out. Until the fighting and the screaming start.~,AREA_DAY)
+        SetPlayerSound(Myself,~This isn't good. Evil critters always seem to favor darkness.~,AREA_NIGHT)
+        SetPlayerSound(Myself,~I'm here.~,SELECT_COMMON1)
+        SetPlayerSound(Myself,~Need something?~,SELECT_COMMON2)
+        SetPlayerSound(Myself,~Need a spell?~,SELECT_COMMON3)
+        SetPlayerSound(Myself,~Ready.~,SELECT_COMMON4)
+        SetPlayerSound(Myself,~Yes?~,SELECT_COMMON5)
+        SetPlayerSound(Myself,~Got a problem?~,SELECT_COMMON6)
+        SetPlayerSound(Myself,~Alright.~,SELECT_ACTION1)
+        SetPlayerSound(Myself,~On it.~,SELECT_ACTION2)
+        SetPlayerSound(Myself,~Sounds easy enough.~,SELECT_ACTION3)
+        SetPlayerSound(Myself,~I'm moving.~,SELECT_ACTION4)
+        SetPlayerSound(Myself,~It's done.~,SELECT_ACTION5)
+        SetPlayerSound(Myself,~Okay.~,SELECT_ACTION6)
+        SetPlayerSound(Myself,~Let's see what the big deal is.~,SELECT_ACTION7)
+        SetPlayerSound(Myself,~That has got to hurt.~,CRITICAL_HIT)
+        SetPlayerSound(Myself,~Uh. Sorry?~,CRITICAL_MISS)
+        SetPlayerSound(Myself,~My weapon's useless! Maybe magic instead?~,TARGET_IMMUNE)
+        SetPlayerSound(Myself,~Gah. Even as an apprentice, I never had to carry this much. Sorry.~,INVENTORY_FULL)
+        SetPlayerSound(Myself,~Wonder how long they'll take to miss that.~,PICKED_POCKET)
+        SetPlayerSound(Myself,~A different kind of invisibility than I've studied.~,HIDDEN_IN_SHADOWS)
+        SetPlayerSound(Myself,~Ah, damn it!~,SPELL_DISRUPTED)
+        SetPlayerSound(Myself,~It's set.~,SET_A_TRAP)
+END

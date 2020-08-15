@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+      
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+      
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+      
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+      
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+      
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+      
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+      
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+      
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+      }
+      
+      #maindiv ol li {
+        line-height: 150%;
+      }
+      
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+      
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+      
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+      
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - Valerie NPC</title>
+  </head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+
+      <div id="header">
+        <h1>Valerie NPC</h1>
+        <strong>A Spellhold Studios mod for Baldur's Gate Trilogy, Baldur's Gate TuTu and Baldur's Gate: Enhanced Edition</strong>
+        <hr />
+        <p class="about">
+          Author: Tempest
+        </p>
+        <p class="about">
+
+          <a href="http://www.spellholdstudios.net/ie/valerie">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/forum/617-valerie/">Mod Forum</a> &#8226;
+          Version: 1.1
+        </p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#installation">Installation</a> &middot;
+          <a href="#info">Mod Details</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#version">Version History</a>
+        </p>
+
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+          <h2>Introduction</h2>
+
+          <p>With tensions rising between Baldur's Gate and Amn, and rumors of unnatural disasters plaguing Amnish territory on the Sword Coast, the Cowled Wizards of Amn have become involved in the looming conflict. Dedicated to controlling the use of magic in Amn and destroying magical threats to that nation, on the Sword Coast they act in support of the Amnish army. And with the rumors of demons in the mines of Nashkel, one young Cowled Wizard has taken it upon herself to learn the truth of the matter. Adventurers willing to work with a Cowled Wizard will find a willing ally in their Nashkel investigations and beyond.</p>
+
+          <p>The Valerie NPC mod contains a friendship for a PC of any race and gender with flirt opportunities for both genders that can be considered PG material.</p>
+
+          <p>Visit the <a href="http://www.shsforums.net/forum/617-valerie/">forum</a> for all the latest updates.</p>
+          <address>
+            <span class="footer">Valerie NPC &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+         <h2>Installation</h2>
+          <h5>PC & non-BG:EE</h5>
+
+          <p>The Valerie NPC mod is a WeiDU mod, packaged in an extractable .RAR archive. Simply unrar <em>"valerie_v1.rar"</em> (<a href="http://www.rarlabs.com">WinRAR</a>) into your BGT or Tutu directory and run <em>"setup-valerie.exe"</em>.
+          <p>To uninstall, run <em>"setup-valerie.exe"</em> again and select the uninstall option.</p>
+
+          <h5>Baldur's Gate: Enhanced Edition</h5>
+
+          <p>To begin, make sure you have made your BG:EE installation mod-ready by <a href="http://forum.baldursgate.com/discussion/6950/player-how-to-getting-mods-to-work-on-bgee/p1">following CamDawg's instructions</a>.</p>
+          <p>Unrar <em>"valerie_v1.rar"</em> (<a href="http://www.rarlabs.com">WinRAR</a>) into your BG:EE directory and run <em>"bgee_install_valerie_setup.bat"</em>.
+          <p>To uninstall, run <em>"bgee_install_valerie_setup.bat"</em> again and select the uninstall option.</p>
+
+          <h5>Compatibility and Installation Order</h5>
+
+          <p>Valerie should be compatible with all other WeiDU mods for BG1 TuTu, BG:EE or BGT, including BG1NPC. If you do encounter an error, please post on the <a href="http://www.shsforums.net/forum/617-valerie/">forums</a>.</p>
+
+          <p>Baldur's Gate: Enhanced Edition, Baldur's Gate Trilogy, or Tutu must be installed to play Isra. Tales of the Sword Coast is not required.</p>
+          <address>
+            <span class="footer">Valerie NPC &gt; Installation</span> <a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+        
+        <!-- ================== D e t a i l s ================== -->
+        <a name="info" id="info"></a>
+        <div class="content">
+          <h2>Mod Details</h2>
+          <h5>Statistics</h5>
+          <p><strong>STR:</strong> 10<br />
+          <strong>DEX:</strong> 14<br />
+          <strong>CON:</strong> 8<br />
+          <strong>INT:</strong> 16<br />
+          <strong>WIS:</strong> 14<br />
+          <strong>CHA:</strong> 13</p>
+
+          <h5>Biography</h5>
+          <p>Valerie is quiet when asked about her past, finding her feelings about it mixed. She was cast out of her family as a child when she displayed signs of magical talent, a deeply suspicious sign in Amn with its cultural distrust of magic. She was found and taken in by the Cowled Wizards, the nation's arcane police, who taught her how to use and control her abilities. Upon completing her apprenticeship, she was posted to Nashkel with the Amnish army where you met her.</p>
+
+          <h5>Information</h5>
+          <p>Valerie is a sorceress and member of the Cowled Wizards of Amn, Amn's organization dedicated to protecting Amn from magical threats and controlling the use of magic within the country. Fresh from her apprenticeship, Valerie has been sent to Nashkel in response to rumors of demons plaguing the mines, with orders to confirm or deny these rumors. With the local army forces paralyzed, however, Valerie is willing to work with adventurers to investigate the mines and the greater crisis looming over the region. Empathic, intellectual, and a devout follower of Torm, the god of duty and loyalty, Valerie is a far cry from the stereotypical sorcerer and will happily befriend a native of the Sword Coast who isn't blatantly evil. You can find Valerie in the middle of Nashkel.</p>
+          
+          <h5>Features</h5>
+          <ul>
+          <li>A friendship with flirtation opportunities for PCs of any race, alignment, and gender with a reputation of at least 10.</li>
+          <li>Player-initiated dialogue.</li>
+          <li>Banters with the Bioware NPCs.</li>
+          <li>Numerous interjections and comments on the world of Baldur's Gate.</li>
+          <li>The beginning of a character and relationship that will eventually return in Baldur's Gate II with new developments and opportunities.</li>
+          <li>An original portrait drawn by the highly talented Hannah Wallance.</li>
+          </ul>
+          
+
+          <h5>Important notes</h5>
+          
+          <p>Valerie has a number of dialogues that only occur at rest in an inn, so if you haven't heard from her for a while, try staying somewhere nice.</p>
+
+          <address>
+            <span class="footer">Valerie NPC &gt; Mod Details</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Frequently Asked Questions</h2>
+          <p><strong>Q: Where do I pick her up?</strong><br /> A: You can find Valerie in the town of Beregost,  not far from Mayor Berrun. </p>
+          <p><strong>Q: Is she very talkative?</strong><br /> A: Moderately, yes. She has interjections and dialogues throughout the game.</p>
+          <p><strong>Q: Does she have a quest?</strong><br /> A: No, she doesn't.<p>
+          <address>
+            <span class="footer">Valerie NPC &gt; FAQ</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+
+          <h2>Credits</h2>
+          <p>Thank you to Spellhold Studios and its staff for hosting, theacefes and Choo Choo for their immense help in understanding Valerie's character and related issues.</p>
+          <span class="t1">Author:</span> <span class="t2">Tempest</span><br />
+          <span class="t1">Coder:</span> <span class="t2">K'aeloree</span><br />
+          <span class="t1">Testers:</span> <span class="t2">Rhaella, K'aeloree</span><br />
+          <span class="t1">Portrait:</span> <span class="t2">Hannah Wallace</span><br />
+          <hr class="floatfix" />
+          <h5>Programs/tools used in creation:</h5><br />
+          <ul>
+            <li><a href="http://www.weidu.org">WeiDU</a>, by Westley Weimer/Valerio Bigiani (the bigg)</li>
+            <li><a href="http://www.idi.ntnu.no/~joh/ni/">Near Infinity</a>, by Jon Olav Hauglid</li>
+            <li><a href="http://www.mud-master.com/shadowkeeper/">Shadowkeeper</a>, by mud-master</li>
+            <li><a href="http://www.shsforums.net/topic/31285-infinity-explorer-v085/">Infinity Explorer</a>, by Dmitry Jemerov/bigmoshi</li>
+            <li><a href="http://sourceforge.net/projects/gemrb/files/Utilities/DLTCEP%20V7.3/">DLTCEP</a>, by Avenger</li>
+            <li><a href="http://www.rarlab.com/">WinRAR</a>, by Eugene Roshal/Alexander Roshal</li>
+            <li><a href="http://www.crimsoneditor.com/">Crimson Editor</a>, by Ingyu Kang</li>
+            <li><a href="http://iesdp.gibberlings3.net">IESDP</a>, maintained by igi</li>
+          </ul>
+          <h5>Copyright Notice:</h5>
+          <div class="important">
+            <p>The Valerie NPC was developed by Tempest, based on material from the game Baldur's Gate and its expansion.</p>
+
+            <p>All mod content is &copy; Tempest.</p>
+            <p>Baldur's Gate II: Shadows of Amn and Baldur's Gate II: Throne of Bhaal &copy; TSR, Inc. The BioWare Infinity Engine is &copy; BioWare Corp.</p>
+            <p>Please note that any and all redistribution and/or hosting of this mod is expressly unwanted without permission from the author(s).</p>
+          </div>
+
+          <address>
+            <span class="footer">Valerie NPC &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+
+        <div class="content">
+          <h2>Version history</h2>
+          <h6>17 January 2013 - Version 1.1:</h6>
+          <ul>
+            <li>Added stringfixer</li>
+            <li>New version of WeiDU</li>
+          </ul>
+          <h6>5 January 2013 - Version 1.0:</h6>
+          <ul>
+            <li>Initial release</li>
+          </ul>
+          <address>
+            <span class="footer">Valerie NPC &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>

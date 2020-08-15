@@ -1,0 +1,7 @@
+IF
+    Global("T2ValExists","%Nashkel%",0)
+THEN
+  RESPONSE #100
+    SetGlobal("T2ValExists","%Nashkel%",1)
+    CreateCreature("T2Val",[2248.1296],6)
+END
