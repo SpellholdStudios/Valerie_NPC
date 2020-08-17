@@ -255,7 +255,7 @@ A: No, she doesn't.
 - Added Russian translation (by JamesMaxwell & Arcanecoast.ru).
 - Traified.
 - Updated deprecated modding tools links.
-- TODO Re-formated, updated and renamed readme file to *valerie-readme-english.html*, then moved it into new *readme* folder.
+- Re-formated, updated and renamed readme file to *valerie-readme-english.html*, then moved it into new *readme* folder.
 - Removed useless files.
 - Lower cased files.
 - Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
