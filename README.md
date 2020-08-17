@@ -258,7 +258,7 @@ A: No, she doesn't.
 - TODO Re-formated, updated and renamed readme file to *valerie-readme-english.html*, then moved it into new *readme* folder.
 - Removed useless files.
 - Lower cased files.
-- TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
+- Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
 - Updated WeiDU installer to v246.
 - Uploaded mod to official Spellhold Studios GitHub mirror account.
