@@ -235,8 +235,8 @@ A: No, she doesn't.
 
 #### Version 1.2 ( August 2020)
 
-- TODO Added *valerie.ini* metadata file to support AL|EN's "Project Infinity".
-- TODO Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added *valerie.ini* metadata file to support AL|EN's "Project Infinity".
+- Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added Modmerge check for SoD games.
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
@@ -251,12 +251,12 @@ A: No, she doesn't.
 - Updated cpmvars files.
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - Simplified area type flagging and Tutu area script assignment patching.
-- TODO Fixed Valerie portraits in EE games.
+- Fixed Valerie portraits in EE games.
 - Added Russian translation (by JamesMaxwell & Arcanecoast.ru).
 - Traified.
-- TODO Updated deprecated modding tools links.
+- Updated deprecated modding tools links.
 - TODO Re-formated, updated and renamed readme file to *valerie-readme-english.html*, then moved it into new *readme* folder.
-- TODO Removed useless files.
+- Removed useless files.
 - Lower cased files.
 - TODO Included Linux and Mac Os X versions in the same package (thanks AL|EN's Infinity Auto Packager tool!).
 - Added archive libiconv-1.9.2-1-src.7z with iconv licence info.
