@@ -247,7 +247,7 @@ A: No, she doesn't.
 - Added EET compatibility.
 - SoD/EET/BGT compatibility: as she has no content for those games, Valerie will no longer remain in the party at SoD and BGT transitions.
 - fw4800.baf: Added "*Continue()*" to the script block that is patched via `EXTEND_TOP`.
-- dialogues: fixed a typo wrongly patching t2val.d (bt2val.d) and added eet variables when relevant (t2valj.d).
+- dialogues: fixed a typo wrongly patching t2val.d (bt2val.d) and prematurely breaking off dialog (thanks Greenhorm for <a href="http://www.shsforums.net/topic/60579-minor-bug-with-dialogue-breaking/">reporting it</a>), and added eet variables when relevant (t2valj.d).
 - Updated cpmvars files.
 - Fixed kit.ids in classic games if BG2 Fixpack is not installed (preventing `WARNINGS` when compiling dialog files).
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.

@@ -65,7 +65,7 @@ Global("T2ValJahTalk2","GLOBAL",1)
 Global("T2ValJahTalk3","GLOBAL",0)~
 THEN BT2VAL T2ValJahTalk3
 @20 DO ~SetGlobal("T2ValJahTalk3","GLOBAL",1)~
-== %JAHEIRA_BANTER%@21
+== %JAHEIRA_BANTER% @21
 == BT2VAL @22
 == %JAHEIRA_BANTER% @23
 EXIT
