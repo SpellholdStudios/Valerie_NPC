@@ -478,11 +478,11 @@
 @410  = ~Count it as a mercy this once. Play against me again, and I'll fleece you for all you're worth.~
 @411  = ~And if I choose not to play cards again?~
 @412  = ~Then you've learned something useful for once.~
-@
+
 /* ------- *
  *  Alora  *
  * ------- */
-413  = ~Alora, please give me back my notebook.~
+@413  = ~Alora, please give me back my notebook.~
 @414  = ~What notebook?~
 @415  = ~The one you filched from my things this morning when I was eating breakfast.~
 @416  = ~I'm telling you, I didn't steal no notebook!~
