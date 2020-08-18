@@ -2,6 +2,7 @@
  *         MAIN COMPONENT INSTALLATION         *
  * =========================================== */
 
+SILENT
 
 /* -------------------------------------------------------------------------------------------------- *
  *   	ADDs CamDawg's custom IsValidForPartyDialogue state used throughout isra. Thanks Cam!         *
@@ -63,6 +64,12 @@ INCLUDE ~valerie/lib/tob2soa.tph~
 // -------------------------------
 INCLUDE ~valerie/lib/ids_entries_gtimes.tph~
 
+// Adds kit.ids fixer for classical games
+// --------------------------------------
+ACTION_IF NOT (is_eet) BEGIN
+	INCLUDE ~valerie/lib/kit_ids_fixer.tpa~
+END
+
 
 /* ------------------------------------------ *
  *  Areas patching                            *
@@ -82,7 +89,7 @@ END
 
 // TotSC content
 // -------------
-ACTION_IF (is_totsc) THEN BEGIN // if TotSC is installed (tutu, bgt and bg:ee)
+ACTION_IF (is_totsc) BEGIN // if TotSC is installed (tutu, bgt and bg:ee)
 	COPY_EXISTING ~%IsleofBalduranN%.are~ ~override~
                   ~%IsleofBalduranS%.are~ ~override~
                   ~%DurlagsTower%.are~ ~override~
@@ -93,7 +100,7 @@ END
 
 // BG content
 // ----------
-ACTION_IF (is_tutu) OR (is_bgt) OR (is_ee) THEN BEGIN
+ACTION_IF (is_tutu) OR (is_bgt) OR (is_ee) BEGIN
 	COPY_EXISTING ~%FishingVillage%.are~ ~override~
                   ~%Peldvale%.are~ ~override~
                   ~%LionsWay%.are~ ~override~

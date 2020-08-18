@@ -48,6 +48,7 @@ ALWAYS
 			INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
 			PRINT @25	// ~Enhanced Edition Trilogy install detected.~
 		END
+		SILENT
 
 
 	/* --------------------------------------------------------------------------------------------- *

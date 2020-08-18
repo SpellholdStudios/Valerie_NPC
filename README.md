@@ -249,6 +249,7 @@ A: No, she doesn't.
 - fw4800.baf: Added "*Continue()*" to the script block that is patched via `EXTEND_TOP`.
 - dialogues: fixed a typo wrongly patching t2val.d (bt2val.d) and added eet variables when relevant (t2valj.d).
 - Updated cpmvars files.
+- Fixed kit.ids in classic games if BG2 Fixpack is not installed (preventing `WARNINGS` when compiling dialog files).
 - Cleaned up old ids entries patch replaced with more recent BG2 Fixpack one and removed animate.ids patching that was ruining Infinity Animations fixes if installed after IA.
 - Simplified area type flagging and Tutu area script assignment patching.
 - Fixed Valerie portraits in EE games.
