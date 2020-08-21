@@ -232,7 +232,7 @@ A: No, she doesn't.
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 1.2 ( August 2020)
+#### Version 1.2 (18 August 2020)
 
 - Added *valerie.ini* metadata file to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
